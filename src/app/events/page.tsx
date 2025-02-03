@@ -4,7 +4,7 @@ import React from "react";
 
 const cardData = [
     {
-        title: "Regatta Inaugration",
+        title: "Regatta Inauguration",
         date: "13/12/2024",
         description: (
             <div>
@@ -22,7 +22,7 @@ const cardData = [
                 </p>
             </div>
         ),
-        image: "/inaug.png",
+        image: "/assets/regatta_inauguration/regatta_inauguration_1.jpg",
     },
     {
         title: "Deepotsav",
