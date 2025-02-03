@@ -22,7 +22,7 @@ const events = {
     regatta_inaguration: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <img
-                src="/assets/jalmaitri_camp/jalmaitri_camp_6.jpg"
+                src="/assets/regatta_inauguration/regatta_inauguration_1.jpg"
                 alt="Regatta Inauguration"
                 className="md:w-2/3 mx-auto object-cover rounded-3xl mb-2"
             />
@@ -156,8 +156,8 @@ const data = [
     },
     {
         date: "13/12/2024",
-        title: "Regatta Inaugration",
-        src: "/assets/jalmaitri_camp/jalmaitri_camp_6.jpg",
+        title: "Regatta Inauguration",
+        src: "/assets/regatta_inauguration/regatta_inauguration_1.jpg",
         content: events["regatta_inaguration"],
     },
     {

@@ -141,7 +141,7 @@ export default function Home() {
             <div className="p-2 md:p-8 bg-gradient-to-b from-yellow-100 to-yellow-300">
                 <div className="flex flex-col justify-center items-center gap-4 bg-blue-500 p-4 md:p-8 rounded-lg border-4 border-white shadow-2xl shadow-black/50">
                     <iframe
-                        className="rounded-lg ring ring-blue-600 ring-offset-4 shadow-lg mb-2 md:mb-4 w-[18rem] md:w-[48rem] h-[12rem] md:h-[24rem]"
+                        className="rounded-lg ring ring-blue-600 ring-offset-4 shadow-lg mb-2 md:mb-4 w-[20rem] md:w-[48rem] h-[12rem] md:h-[24rem]"
                         src="https://www.youtube-nocookie.com/embed/wlfdtNQ9URs?si=U_HnpravCCu1a-HI&amp;controls=0&amp;start=4"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -149,7 +149,7 @@ export default function Home() {
                         allowFullScreen
                     ></iframe>
                     <div className="flex flex-col md:flex-row gap-2 items-center justify-center text-lg md:text-xl">
-                        <span className="text-2xl font-serif font-bold ">
+                        <span className="text-2xl font-serif font-bold">
                             Socials:
                         </span>
                         <div className="flex flex-col md:flex-row gap-2">
