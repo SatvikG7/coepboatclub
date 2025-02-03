@@ -108,6 +108,7 @@ export default function Events() {
                                 src={card.image}
                                 alt={card.title}
                                 className="w-full object-cover object-center h-full"
+                                loading="lazy"
                             />
                         </div>
                     </div>

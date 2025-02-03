@@ -65,10 +65,11 @@ export default function Home() {
                     </p>
                 </span>
             </div>
-            <div className="flex flex-col flex-col-reverse md:flex-row py-6 items-center">
+            <div className="flex flex-col-reverse md:flex-row py-6 items-center">
                 <div className="basis-1/3">
                     <div className="card p-12">
                         <img
+                            loading="lazy"
                             src="/bclogo-full.jpg"
                             alt="Boat Club Logo"
                             className="rounded-full shadow-black border-4 border-black ring-4 ring-orange-400 shadow-2xl"

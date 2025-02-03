@@ -54,7 +54,7 @@ const events = {
             </p>
             <img
                 className="md:w-2/3 mx-auto rounded-3xl m-4"
-                src="/assets/deepotsav/deepotsav_3.png"
+                src="/assets/deepotsav/deepotsav_3.jpg"
                 alt="deepotsav"
                 loading="lazy"
             />

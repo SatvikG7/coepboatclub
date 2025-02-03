@@ -164,6 +164,7 @@ export default function Committee() {
                         return (
                             <div key={i}>
                                 <img
+                                    loading="lazy"
                                     className="w-72 h-72 object-cover aspect-2"
                                     src={"/assets/committee/" + F.img_path}
                                     alt={F.name}
@@ -192,6 +193,7 @@ export default function Committee() {
                         return (
                             <div key={i}>
                                 <img
+                                    loading="lazy"
                                     className="w-72 h-72 object-cover aspect-2"
                                     src={"/assets/committee/" + F.img_path}
                                     alt={F.name}
