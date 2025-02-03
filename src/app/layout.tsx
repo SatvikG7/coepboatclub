@@ -15,6 +15,13 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <script
+                    defer
+                    src="https://cloud.umami.is/script.js"
+                    data-website-id="839ae4ee-a791-4a56-8a8c-80a3a0fff4e8"
+                ></script>
+            </head>
             <body>
                 <Navbar />
                 {children}
