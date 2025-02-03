@@ -14,13 +14,13 @@ const testimonials = [
         src: "/assets/committee/vice_president.png",
     },
     {
-        quote: "Witnessing the Regatta each year reaffirms the spirit and tradition that COEP upholds.",
+        quote: "Organizing the Regatta is a testament to our students' relentless pursuit of excellence.",
         name: "Dr. S. G. Bhirud",
         designation: "Vice Chancellor, COEP Technological University",
         src: "/assets/committee/president.png",
     },
     {
-        quote: "Organizing the Regatta is a testament to our students' relentless pursuit of excellence.",
+        quote: "Witnessing the Regatta each year reaffirms the spirit and tradition that COEP upholds.",
         name: "Dr. S. M. Nawghare",
         designation: "Regatta Incharge, COEP Boat Club",
         src: "/assets/committee/regatta_incharge.png",
@@ -28,7 +28,7 @@ const testimonials = [
     {
         quote: "The Regatta fosters holistic development, blending technical skills with cultural heritage.",
         name: "Dr. M. P. Khond",
-        designation: "Director Board of Students Development",
+        designation: "Director, Board of Students' Development",
         src: "/assets/committee/director_bosd.jpg",
     },
 ];
@@ -48,20 +48,24 @@ export default function Home() {
                     autoPlay
                     muted
                     loop
-                    className="w-[100vw] h-[100vh] object-cover"
+                    className="h-[75vw] w-[100vw] md:h-[100vh] object-cover"
                 >
                     <source src="/hero_vid.mp4" type="video/mp4" />
                     Your browser does not support HTML5 video.
                 </video>
-                <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-6xl font-serif text-white">
-                    COEP TECH
-                    <br />
-                    BOAT CLUB
-                    <br />
-                    <span>Since 1928</span>
+                <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <p className="text-white font-serif text-3xl md:text-6xl">
+                        COEP TECH
+                    </p>
+                    <p className="text-white font-serif text-3xl md:text-6xl">
+                        BOAT CLUB
+                    </p>
+                    <p className="text-white font-serif text-3xl md:text-6xl">
+                        Since 1854
+                    </p>
                 </span>
             </div>
-            <div className="flex flex-row py-6 items-center">
+            <div className="flex flex-col flex-col-reverse md:flex-row py-6 items-center">
                 <div className="basis-1/3">
                     <div className="card p-12">
                         <img
@@ -133,41 +137,37 @@ export default function Home() {
                 />
             </div>
             {/* Explore Section */}
-            <div>
-                <div className="flex flex-row p-8 items-center justify-center bg-gradient-to-b from-yellow-100 to-yellow-300">
-                    <div className="flex flex-col justify-center items-center gap-4 bg-blue-500 px-8 py-8 rounded-lg border-4 border-white shadow-2xl shadow-black/50">
-                        <iframe
-                            className="rounded-lg ring ring-blue-600 ring-offset-4 shadow-lg mb-4"
-                            width="784"
-                            height="441"
-                            src="https://www.youtube-nocookie.com/embed/wlfdtNQ9URs?si=U_HnpravCCu1a-HI&amp;controls=0&amp;start=4"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
-                            allowFullScreen
-                        ></iframe>
-                        <div className="flex flex-row gap-2 items-center justify-center text-xl">
-                            <span className="text-2xl font-serif font-bold ">
-                                Socials:
-                            </span>
-                            <div className="flex flex-row gap-2">
-                                <a href="https://www.instagram.com/coepboatclub">
-                                    <span className="rounded-full px-4 py-2 bg-pink-500 text-white flex items-center">
-                                        <FiInstagram /> /coepboatclub
-                                    </span>
-                                </a>
-                                <a href="https://www.youtube.com/@coepregatta4240">
-                                    <span className="rounded-full px-4 py-2 bg-red-500 text-white flex items-center">
-                                        <FiYoutube /> /coepregatta4240
-                                    </span>
-                                </a>
+            <div className="p-2 md:p-8 bg-gradient-to-b from-yellow-100 to-yellow-300">
+                <div className="flex flex-col justify-center items-center gap-4 bg-blue-500 p-4 md:p-8 rounded-lg border-4 border-white shadow-2xl shadow-black/50">
+                    <iframe
+                        className="rounded-lg ring ring-blue-600 ring-offset-4 shadow-lg mb-2 md:mb-4 w-[18rem] md:w-[48rem] h-[12rem] md:h-[24rem]"
+                        src="https://www.youtube-nocookie.com/embed/wlfdtNQ9URs?si=U_HnpravCCu1a-HI&amp;controls=0&amp;start=4"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                    ></iframe>
+                    <div className="flex flex-col md:flex-row gap-2 items-center justify-center text-lg md:text-xl">
+                        <span className="text-2xl font-serif font-bold ">
+                            Socials:
+                        </span>
+                        <div className="flex flex-col md:flex-row gap-2">
+                            <a href="https://www.instagram.com/coepboatclub">
+                                <span className="rounded-full px-4 py-2 bg-pink-500 text-white flex items-center justify-center">
+                                    <FiInstagram /> /coepboatclub
+                                </span>
+                            </a>
+                            <a href="https://www.youtube.com/@coepregatta4240">
+                                <span className="rounded-full px-4 py-2 bg-red-500 text-white flex items-center justify-center">
+                                    <FiYoutube /> /coepregatta4240
+                                </span>
+                            </a>
 
-                                <a href="https://x.com/coepboatclub">
-                                    <span className="rounded-full px-4 py-2 bg-black text-white flex items-center">
-                                        <FaXTwitter /> /coepboatclub
-                                    </span>
-                                </a>
-                            </div>
+                            <a href="https://x.com/coepboatclub">
+                                <span className="rounded-full px-4 py-2 bg-black text-white flex items-center justify-center">
+                                    <FaXTwitter /> /coepboatclub
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import React from "react";
 
 const galleryData = [
     {
-        title: "Jalmaitri Camp",
+        title: "Jalmaitri Camp 2023-24",
         images: [
             "/assets/jalmaitri_camp/jalmaitri_camp_1.jpg",
             "/assets/jalmaitri_camp/jalmaitri_camp_2.jpg",
@@ -11,6 +12,16 @@ const galleryData = [
             "/assets/jalmaitri_camp/jalmaitri_camp_4.jpg",
             "/assets/jalmaitri_camp/jalmaitri_camp_5.jpg",
             "/assets/jalmaitri_camp/jalmaitri_camp_6.jpg",
+        ],
+    },
+    {
+        title: "Deepotsav",
+        images: [
+            "/assets/deepotsav/deepotsav_1.jpg",
+            "/assets/deepotsav/deepotsav_2.jpg",
+            "/assets/deepotsav/deepotsav_3.jpg",
+            "/assets/deepotsav/deepotsav_4.jpg",
+            "/assets/deepotsav/deepotsav_5.jpg",
         ],
     },
     {
@@ -38,8 +49,18 @@ const galleryData = [
         ],
     },
     {
+        title: "Moonlight Punting",
+        images: [
+            "/assets/moonlight_punting/moonlight_punting_1.jpg",
+            "/assets/moonlight_punting/moonlight_punting_2.jpg",
+        ],
+    },
+    {
         title: "Indoor Rowing",
-        images: ["/assets/sports/indoor_rowing/indoor_rowing_1.jpg"],
+        images: [
+            "/assets/sports/indoor_rowing/indoor_rowing_1.jpg",
+            "/assets/sports/indoor_rowing/indoor_rowing_2.jpg",
+        ],
     },
     {
         title: "Canoeing",
@@ -73,6 +94,9 @@ const Gallery = () => {
                                             imgIndex + 1
                                         }`}
                                         className="w-full h-auto object-cover"
+                                        onClick={() => {
+                                            window.open(image, "_blank");
+                                        }}
                                     />
                                 </div>
                             ))}

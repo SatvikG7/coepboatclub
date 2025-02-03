@@ -6,7 +6,7 @@ import Image from "next/image";
 function Footer() {
     return (
         <footer className=" text-white ">
-            <div className="bg-gray-800 py-8 px-16 mx-auto flex flex-col md:flex-row justify-between">
+            <div className="bg-gray-800 py-8 px-16 mx-auto flex flex-col md:flex-row justify-between items-center md:items-start">
                 <div className="text-center md:text-left mb-4 md:mb-0">
                     <p>
                         Address:
@@ -22,6 +22,7 @@ function Footer() {
                         </button>
                     </a>
                 </div>
+
                 <div className="text-center md:text-left mb-4 md:mb-0">
                     <p>
                         Contact:
@@ -34,9 +35,14 @@ function Footer() {
                         </a>
                     </p>
                 </div>
-                <div className="text-center md:text-right">
-                    <Image unoptimized src="/bclogo-full.jpg" alt="Logo" className="w-40" width={40} height={40} />
-                </div>
+                <Image
+                    unoptimized
+                    src="/bclogo-full.jpg"
+                    alt="Logo"
+                    className="w-40"
+                    width={40}
+                    height={40}
+                />
             </div>
             <div className="w-full text-center bg-black text-white">
                 © 2025 COEP Tech Boat Club. Site developed by BMC Web

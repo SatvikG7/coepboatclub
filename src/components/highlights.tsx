@@ -10,7 +10,7 @@ export function Highlights() {
 
     return (
         <div className="w-full h-full">
-            <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 font-serif">
+            <h2 className="max-w-7xl p-2 mx-auto text-3xl md:text-5xl font-bold text-neutral-800 font-serif">
                 Highlights
             </h2>
             <Carousel items={cards} />
@@ -20,11 +20,11 @@ export function Highlights() {
 
 const events = {
     regatta_inaguration: (
-        <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl m-4">
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <img
                 src="/assets/jalmaitri_camp/jalmaitri_camp_6.jpg"
                 alt="Regatta Inauguration"
-                className="w-2/3 mx-auto object-cover rounded-3xl m-4"
+                className="md:w-2/3 mx-auto object-cover rounded-3xl mb-2"
             />
             <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
                 The Regatta Inauguration is a grand event that marks the
@@ -38,9 +38,9 @@ const events = {
         </div>
     ),
     deepotsav: (
-        <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl m-4">
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <img
-                className="w-2/3 mx-auto object-cover rounded-3xl m-4"
+                className="md:w-2/3 mx-auto object-cover rounded-3xl m-4"
                 src="/assets/deepotsav/deepotsav_1.jpg"
                 alt="deepotsav"
                 loading="lazy"
@@ -53,7 +53,7 @@ const events = {
                 Diwali.
             </p>
             <img
-                className="w-2/3 mx-auto rounded-3xl m-4"
+                className="md:w-2/3 mx-auto rounded-3xl m-4"
                 src="/assets/deepotsav/deepotsav_3.png"
                 alt="deepotsav"
                 loading="lazy"
@@ -64,7 +64,7 @@ const events = {
                 joy as they realise how amazing our boat club really is.
             </p>
             <img
-                className="w-2/3 mx-auto rounded-3xl m-4"
+                className="md:w-2/3 mx-auto rounded-3xl m-4"
                 src="/assets/deepotsav/deepotsav_2.jpg"
                 alt="deepotsav"
                 loading="lazy"
@@ -72,7 +72,7 @@ const events = {
         </div>
     ),
     moonlight_punting: (
-        <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl m-4">
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
                 Moonlight Punting is held on the occasion of &apos;Kojagiri
                 Purnima&apos; (Full Moon). Everyone is given a chance to ride a
@@ -85,7 +85,7 @@ const events = {
         </div>
     ),
     mit_sports_meet: (
-        <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl m-4">
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
                 In &quot;Vishwanath Sports Meet&quot;, COEP Boat Club Team has
                 won the Silver Medal in following events competing with 8-9
@@ -101,7 +101,7 @@ const events = {
         </div>
     ),
     survival_of_the_fittest: (
-        <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl m-4">
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
                 Survival of the Fittest is a competition that tests the physical
                 and mental strength of the participants. The event is a grand
@@ -112,13 +112,13 @@ const events = {
         </div>
     ),
     jalmaitri_camp: (
-        <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl m-4">
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
                 <a
-                    className="text-2xl md:text-2xl font-bold text-blue-500 font-serif"
+                    className="text-2xl md:text-2xl font-bold text-blue-500 font-serif underline"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeCD5f6FODBeagIdF7EhxNjJQQR7vVBMtmmOP_g4PfW7LNkOQ/viewform?usp=send_form"
                 >
-                    Registration Link
+                    Click here to Register
                 </a>
                 <br />
                 Jalmaitri Camp is a camp organized by the Boat Club for the
@@ -126,6 +126,7 @@ const events = {
                 enjoyed by all the students of COEP. The camp is held to
                 encourage students to participate in the Boat Club and to
                 motivate them to perform their best.
+                <br />
                 <button className="px-8 py-2 rounded-md bg-teal-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
                     <a href="/gallery#jalmaitri-camp">View Memories</a>
                 </button>

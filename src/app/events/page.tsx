@@ -38,7 +38,7 @@ const cardData = [
                     really is.
                 </p>
             </div>
-      ),
+        ),
         image: "/assets/deepotsav/deepotsav_1.jpg",
     },
     {
@@ -55,7 +55,7 @@ const cardData = [
                     is concluded by providing everyone with the traditional
                     Masala Doodh - enjoyed as a refreshment on Kojagiri. <br />{" "}
                     <b className="text-gray-700">
-                        Sakshi Nikam - Punt Formation Secretary
+                        Kshitij Prashant Nazirkar - Punt Formation Secretary
                     </b>
                 </p>
             </div>
