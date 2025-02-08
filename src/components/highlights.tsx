@@ -2,7 +2,7 @@
 "use client";
 import React from "react";
 import { Carousel, Card } from "@/components/cards-carousel";
-
+import { InstagramEmbed } from "react-social-media-embed";
 export function Highlights() {
     const cards = data.map((card, index) => (
         <Card key={card.src} card={card} index={index} />
@@ -109,18 +109,17 @@ const events = {
                 The event is held to encourage students to participate in the
                 Regatta and to motivate them to perform their best.
             </p>
+            <div className="flex justify-center">
+                <InstagramEmbed
+                    url="https://www.instagram.com/p/DFx_F7Iozp9/"
+                    width={328}
+                />
+            </div>
         </div>
     ),
     jalmaitri_camp: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
-                <a
-                    className="text-2xl md:text-2xl font-bold text-blue-500 font-serif underline"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeCD5f6FODBeagIdF7EhxNjJQQR7vVBMtmmOP_g4PfW7LNkOQ/viewform?usp=send_form"
-                >
-                    Click here to Register
-                </a>
-                <br />
                 Jalmaitri Camp is a camp organized by the Boat Club for the
                 freshers of COEP. The camp is a grand success every year and is
                 enjoyed by all the students of COEP. The camp is held to
@@ -137,8 +136,8 @@ const events = {
 
 const data = [
     {
-        date: "Upcoming 05/02/2025-06/02/2025",
-        title: "Jalmaitri Camp - Register Now",
+        date: "05/02/2025-06/02/2025",
+        title: "Jalmaitri Camp",
         src: "/assets/jalmaitri_camp/jalmaitri_camp_5.jpg",
         content: events["jalmaitri_camp"],
     },
