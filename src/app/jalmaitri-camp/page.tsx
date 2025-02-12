@@ -40,6 +40,7 @@ export default function JalmaitriCamp() {
                         memorable adventure.
                     </p>
                     <Image
+                        loading="lazy"
                         className="rounded-md basis-1/3"
                         unoptimized
                         width={400}
@@ -81,6 +82,7 @@ export default function JalmaitriCamp() {
                         minutes in the K4 kayaks of Boat Club.
                     </p>
                     <Image
+                        loading="lazy"
                         className="rounded-md basis-1/3"
                         unoptimized
                         width={400}
@@ -98,6 +100,7 @@ export default function JalmaitriCamp() {
                     speed boats.
                 </p>
                 <Image
+                    loading="lazy"
                     className="basis-1/3 mx-auto"
                     unoptimized
                     width={400 * 1.5}
@@ -117,6 +120,7 @@ export default function JalmaitriCamp() {
                 </p>
                 <div className="md:flex flex-row md:mx-8 md:my-4 m-2 gap-8">
                     <Image
+                        loading="lazy"
                         className="rounded-md p-8 basis-2/3"
                         unoptimized
                         width={400}
@@ -125,6 +129,7 @@ export default function JalmaitriCamp() {
                         alt="jalmaitri_camp_10"
                     />
                     <Image
+                        loading="lazy"
                         className="rounded-md p-8 basis-1/3"
                         unoptimized
                         width={400}
@@ -143,6 +148,7 @@ export default function JalmaitriCamp() {
                     eventful day.
                 </p>
                 <Image
+                    loading="lazy"
                     className="rounded-md p-8 basis-1/3 mx-auto"
                     unoptimized
                     width={400 * 1.5}
@@ -179,6 +185,7 @@ export default function JalmaitriCamp() {
                         provided with speed boats.
                     </p>
                     <Image
+                        loading="lazy"
                         className="rounded-md basis-1/3"
                         unoptimized
                         width={400}
