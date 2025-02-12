@@ -65,7 +65,7 @@ export default function Navbar() {
                         </DisclosureButton>
                     </div>
                     <div className="flex items-center justify-center bg-blue-950/85 rounded-full px-8 py-2">
-                        <div className="hidden sm:ml-6 sm:block">
+                        <div className="hidden sm:mx-6 sm:block">
                             <div className="flex space-x-4">
                                 {navigation.map((item) => (
                                     <a
