@@ -18,6 +18,7 @@ const navigation: NavigationItem[] = [
     { name: "Home", href: "/" },
     { name: "Sports", href: "/sports" },
     { name: "Events", href: "/events" },
+    { name: "Jalmaitri Camp", href: "/jalmaitri-camp" },
     { name: "Regatta", href: "https://regatta.coepboatclub.com" },
     { name: "Committee", href: "/committee" },
     { name: "Gallery", href: "/gallery" },

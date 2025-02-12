@@ -126,9 +126,16 @@ const events = {
                 encourage students to participate in the Boat Club and to
                 motivate them to perform their best.
                 <br />
-                <button className="px-8 py-2 rounded-md bg-teal-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
-                    <a href="/gallery#jalmaitri-camp">View Memories</a>
-                </button>
+                <div className="flex justify-center space-x-4 mt-4">
+                    <button className="font-sans px-8 py-2 rounded-md bg-orange-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-orange-500">
+                        <a href="/jalmaitri-camp">View memories</a>
+                    </button>
+                    <button className="font-sans px-8 py-2 rounded-md bg-blue-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-blue-500">
+                        <a href="/assets/jalmaitri_camp/jalmaitri.docx">
+                            View report
+                        </a>
+                    </button>
+                </div>
             </p>
         </div>
     ),
@@ -136,7 +143,7 @@ const events = {
 
 const data = [
     {
-        date: "05/02/2025-06/02/2025",
+        date: "05/02/2025 - 06/02/2025",
         title: "Jalmaitri Camp",
         src: "/assets/jalmaitri_camp/jalmaitri_camp_5.jpg",
         content: events["jalmaitri_camp"],

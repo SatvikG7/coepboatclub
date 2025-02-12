@@ -61,7 +61,7 @@ export default function Home() {
                         BOAT CLUB
                     </p>
                     <p className="text-white font-serif text-3xl md:text-6xl">
-                        Since 1854
+                        Since 1928
                     </p>
                 </span>
             </div>
