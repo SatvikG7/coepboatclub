@@ -16,7 +16,6 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/bclogo.webp" />
                 <script
                     defer
                     src="https://cloud.umami.is/script.js"

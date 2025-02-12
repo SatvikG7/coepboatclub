@@ -5,9 +5,9 @@ import Image from "next/image";
 
 function Footer() {
     return (
-        <footer className=" text-white ">
-            <div className="bg-gray-800 py-8 px-16 mx-auto flex flex-col md:flex-row justify-between items-center md:items-start">
-                <div className="text-center md:text-left mb-4 md:mb-0">
+        <footer className="text-white ">
+            <div className="flex flex-col items-center justify-between px-16 py-8 mx-auto bg-gray-800 md:flex-row md:items-start">
+                <div className="mb-4 text-center md:text-left md:mb-0">
                     <p>
                         Address:
                         <br />
@@ -16,14 +16,14 @@ function Footer() {
                         College Of Engireering Pune, <br />
                         Shivajinagar, Pune, Maharashtra 411005
                     </p>
-                    <a href="https://maps.app.goo.gl/abgHVMYrfxhn4qEK7">
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">
+                    <button className="px-4 py-2 mt-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">
+                        <a href="https://maps.app.goo.gl/abgHVMYrfxhn4qEK7">
                             View on Google Maps
-                        </button>
-                    </a>
+                        </a>
+                    </button>
                 </div>
 
-                <div className="text-center md:text-left mb-4 md:mb-0">
+                <div className="mb-4 text-center md:text-left md:mb-0">
                     <p>
                         Contact:
                         <br />
@@ -44,7 +44,7 @@ function Footer() {
                     height={40}
                 />
             </div>
-            <div className="w-full text-center bg-black text-white">
+            <div className="w-full text-center text-white bg-black">
                 © 2025 COEP Tech Boat Club. Site developed by BMC Web
                 Development Team
             </div>

@@ -153,8 +153,8 @@ const BMC = [
 export default function Committee() {
     return (
         <div>
-            <div className="flex justify-center flex-col items-center p-8">
-                <h1 className="text-3xl text-center mb-8 underline">
+            <div className="flex flex-col items-center justify-center p-8">
+                <h1 className="mb-8 text-3xl text-center underline">
                     Faculty Advisors for BMC
                 </h1>
                 <div className="flex flex-row flex-wrap gap-6 justify-evenly">
@@ -162,17 +162,20 @@ export default function Committee() {
 
                     {Faculty.map((F, i) => {
                         return (
-                            <div key={i}>
+                            <div
+                                key={i}
+                                className="flex flex-col items-center gap-2 bg-gray-300 shadow-md"
+                            >
                                 <img
                                     loading="lazy"
-                                    className="w-72 h-72 object-cover aspect-2"
+                                    className="object-cover rounded-md w-72 h-72 aspect-2"
                                     src={"/assets/committee/" + F.img_path}
                                     alt={F.name}
                                 />
-                                <p className="text-gray-950 text-xl">
+                                <p className="text-xl text-gray-950">
                                     {F.name}
                                 </p>
-                                <p className="text-gray-800 text-lg">
+                                <p className="text-lg text-gray-800">
                                     {F.post}
                                 </p>
                                 <p className="text-gray-600 text-md">
@@ -184,27 +187,30 @@ export default function Committee() {
                 </div>
             </div>
 
-            <div className="flex justify-center flex-col items-center p-8">
-                <h1 className="text-3xl text-center mb-8 underline">
+            <div className="flex flex-col items-center justify-center p-8">
+                <h1 className="mb-8 text-3xl text-center underline">
                     Boat Club Managing Committee (BMC) 2024-25
                 </h1>
                 <div className="flex flex-row flex-wrap gap-6 justify-evenly">
                     {BMC.map((F, i) => {
                         return (
-                            <div key={i}>
+                            <div
+                                key={i}
+                                className="flex flex-col items-center gap-2 pb-2 bg-gray-300 shadow-md"
+                            >
                                 <img
                                     loading="lazy"
-                                    className="w-72 h-72 object-cover aspect-2"
+                                    className="object-cover rounded-md w-72 h-72 aspect-2"
                                     src={"/assets/committee/" + F.img_path}
                                     alt={F.name}
                                 />
-                                <p className="text-gray-950 text-xl">
+                                <p className="text-xl text-gray-950">
                                     {F.name}
                                 </p>
                                 <p className="text-gray-800 text-md">
                                     {F.post}
                                 </p>
-                                <p className="text-gray-600 text-md flex flex-row gap-2">
+                                <p className="flex flex-row gap-2 text-gray-600 text-md">
                                     {/* socials */}
                                     {F.linkedin && (
                                         <a href={F.linkedin}>

@@ -10,7 +10,7 @@ export function Highlights() {
 
     return (
         <div className="w-full h-full">
-            <h2 className="max-w-7xl p-2 mx-auto text-3xl md:text-5xl font-bold text-neutral-800 font-serif">
+            <h2 className="p-2 mx-auto font-serif text-3xl font-bold max-w-7xl md:text-5xl text-neutral-800">
                 Highlights
             </h2>
             <Carousel items={cards} />
@@ -24,9 +24,9 @@ const events = {
             <img
                 src="/assets/regatta_inauguration/regatta_inauguration_1.jpg"
                 alt="Regatta Inauguration"
-                className="md:w-2/3 mx-auto object-cover rounded-3xl mb-2"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
             />
-            <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
                 The Regatta Inauguration is a grand event that marks the
                 beginning of the Regatta season. The event is graced by the
                 presence of the Vice-Chancellor, the Dean of Student Affairs,
@@ -40,12 +40,12 @@ const events = {
     deepotsav: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <img
-                className="md:w-2/3 mx-auto object-cover rounded-3xl m-4"
+                className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
                 src="/assets/deepotsav/deepotsav_1.jpg"
                 alt="deepotsav"
                 loading="lazy"
             />
-            <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
                 On the occasion of Diwali, the Boat Club organizes a Deepotsav.
                 The event is a grand success every year and is enjoyed by all
                 the students of COEP. On this occasion, the Boat Club was
@@ -53,18 +53,18 @@ const events = {
                 Diwali.
             </p>
             <img
-                className="md:w-2/3 mx-auto rounded-3xl m-4"
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
                 src="/assets/deepotsav/deepotsav_3.jpg"
                 alt="deepotsav"
                 loading="lazy"
             />
-            <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
                 Every corner was lit with diyas and there isn&apos;t a single
                 spot of darkness. Everybody enjoyed this sight with laughter and
                 joy as they realise how amazing our boat club really is.
             </p>
             <img
-                className="md:w-2/3 mx-auto rounded-3xl m-4"
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
                 src="/assets/deepotsav/deepotsav_2.jpg"
                 alt="deepotsav"
                 loading="lazy"
@@ -73,7 +73,7 @@ const events = {
     ),
     moonlight_punting: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
-            <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
                 Moonlight Punting is held on the occasion of &apos;Kojagiri
                 Purnima&apos; (Full Moon). Everyone is given a chance to ride a
                 punt in the dimly lit waters of the Mula river. Under the
@@ -86,7 +86,7 @@ const events = {
     ),
     mit_sports_meet: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
-            <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
                 In &quot;Vishwanath Sports Meet&quot;, COEP Boat Club Team has
                 won the Silver Medal in following events competing with 8-9
                 teams: <br />
@@ -102,7 +102,7 @@ const events = {
     ),
     survival_of_the_fittest: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
-            <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
                 Survival of the Fittest is a competition that tests the physical
                 and mental strength of the participants. The event is a grand
                 success every year and is enjoyed by all the students of COEP.
@@ -119,18 +119,18 @@ const events = {
     ),
     jalmaitri_camp: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
-            <p className="text-neutral-600 text-base md:text-2xl font-serif max-w-3xl mx-auto">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
                 Jalmaitri Camp is a camp organized by the Boat Club for the
                 freshers of COEP. The camp is a grand success every year and is
                 enjoyed by all the students of COEP. The camp is held to
                 encourage students to participate in the Boat Club and to
                 motivate them to perform their best.
                 <br />
-                <div className="flex justify-center space-x-4 mt-4">
-                    <button className="font-sans px-8 py-2 rounded-md bg-orange-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-orange-500">
+                <div className="flex justify-center mt-4 space-x-4">
+                    <button className="px-8 py-2 font-sans text-xl font-bold text-white transition duration-200 bg-orange-500 border-2 border-transparent rounded-md hover:bg-white hover:text-black hover:border-orange-500">
                         <a href="/jalmaitri-camp">View memories</a>
                     </button>
-                    <button className="font-sans px-8 py-2 rounded-md bg-blue-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-blue-500">
+                    <button className="px-8 py-2 font-sans text-xl font-bold text-white transition duration-200 bg-blue-500 border-2 border-transparent rounded-md hover:bg-white hover:text-black hover:border-blue-500">
                         <a href="/assets/jalmaitri_camp/jalmaitri.docx">
                             View report
                         </a>

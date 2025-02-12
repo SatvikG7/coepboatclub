@@ -70,7 +70,7 @@ const galleryData = [
 
 const Gallery = () => {
     return (
-        <div className="min-h-screen bg-gray-100 p-8">
+        <div className="min-h-screen p-8 bg-gray-100">
             <div className="space-y-8">
                 {galleryData.map((game, index) => (
                     <div
@@ -78,14 +78,14 @@ const Gallery = () => {
                         id={game.title.toLowerCase().replace(" ", "-")}
                         className="space-y-8 min-h-96 scroll-mt-16"
                     >
-                        <h2 className="text-2xl text-center font-serif font-semibold mb-4 text-gray-800 underline">
+                        <h2 className="mb-4 font-serif text-2xl font-semibold text-center text-gray-800 underline">
                             {game.title}
                         </h2>
-                        <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-2">
+                        <div className="gap-4 space-y-2 columns-1 sm:columns-2 md:columns-3 lg:columns-4">
                             {game.images.map((image, imgIndex) => (
                                 <div
                                     key={imgIndex}
-                                    className="break-inside-avoid rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300"
+                                    className="overflow-hidden transition-shadow duration-300 rounded-lg shadow-md break-inside-avoid hover:shadow-2xl"
                                 >
                                     <img
                                         src={image}
@@ -93,7 +93,7 @@ const Gallery = () => {
                                         alt={`${game.title} - Image ${
                                             imgIndex + 1
                                         }`}
-                                        className="w-full h-auto object-cover"
+                                        className="object-cover w-full h-auto"
                                         onClick={() => {
                                             window.open(image, "_blank");
                                         }}

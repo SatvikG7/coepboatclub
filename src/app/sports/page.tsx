@@ -24,12 +24,12 @@ const games = [
 
 export default function Sports() {
     return (
-        <div className="min-h-screen bg-gray-100 p-4">
-            <div className="flex flex-wrap gap-2 flex-row justify-evenly items-center">
+        <div className="min-h-screen p-4 bg-gray-100">
+            <div className="flex flex-row flex-wrap items-center gap-2 justify-evenly">
                 {games.map((game, index) => (
                     <div
                         key={index}
-                        className="p-4 bg-indigo-400 rounded-lg shadow-md transition duration-300"
+                        className="p-4 transition duration-300 bg-indigo-400 rounded-lg shadow-md"
                     >
                         <a
                             href={
@@ -37,14 +37,14 @@ export default function Sports() {
                                 game.name.toLowerCase().replace(" ", "-")
                             }
                         >
-                            <div className="relative rounded-lg overflow-hidden shadow-black shadow-md hover:shadow-lg hover:shadow-black transition duration-300 group">
+                            <div className="relative overflow-hidden transition duration-300 rounded-lg shadow-md shadow-black hover:shadow-lg hover:shadow-black group">
                                 <img
                                     src={game.image}
                                     alt={game.name}
-                                    className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
+                                    className="object-cover w-full h-64 transition-transform duration-300 transform group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-                                <div className="absolute bottom-0 left-0 right-0 text-white text-center font-semibold text-lg p-2 bg-opacity-50 bg-black">
+                                <div className="absolute bottom-0 left-0 right-0 p-2 text-lg font-semibold text-center text-white bg-black bg-opacity-50">
                                     {game.name}
                                 </div>
                             </div>

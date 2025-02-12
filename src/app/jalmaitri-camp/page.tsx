@@ -4,12 +4,14 @@ import Image from "next/image";
 
 export default function JalmaitriCamp() {
     return (
-        <div>
-            <h1 className="text-4xl my-2 mx-2 md:mx-8">Jalmaitri Camp 25</h1>
+        <div className="max-w-7xl mx-auto">
+            <h1 className="mx-2 my-2 text-4xl md:mx-8 underline font-serif">
+                Jalmaitri Camp 25
+            </h1>
             <section className="p-1 md:p-4">
-                <h2 className="text-2xl md:my-4 md:mx-8 m-2">Introduction</h2>
-                <div className="md:flex flex-row md:mx-8 md:my-4 m-2 gap-8">
-                    <p className="mx-4 text-md text-justify basis-2/3">
+                <h2 className="m-2 text-2xl md:my-4 md:mx-8">Introduction</h2>
+                <div className="flex-row gap-8 m-2 md:flex md:mx-8 md:my-4">
+                    <p className="mx-4 text-justify text-md basis-2/3">
                         Jalmaitri 25, a two-day, one-night event held on the 5th
                         and 6th, was organized by the COEP Boat Club at the
                         scenic Panshet Dam. The primary objective of the camp
@@ -51,11 +53,11 @@ export default function JalmaitriCamp() {
                 </div>
             </section>
             <section className="p-1 md:p-4">
-                <h2 className="text-2xl md:my-4 md:mx-8 m-2">
+                <h2 className="m-2 text-2xl md:my-4 md:mx-8">
                     Day 1 (5th of February)
                 </h2>
-                <div className="md:flex flex-row-reverse md:mx-8 md:my-4 m-2 gap-8">
-                    <p className="text-md text-justify md:my-4 md:mx-8 m-2">
+                <div className="flex-row-reverse gap-8 m-2 md:flex md:mx-8 md:my-4">
+                    <p className="m-2 text-justify text-md md:my-4 md:mx-8">
                         On 5th morning all groups left for the location in 4
                         buses which were provided for transportation. The event
                         was conducted in batches to ensure smooth coordination
@@ -92,7 +94,7 @@ export default function JalmaitriCamp() {
                     />
                 </div>
 
-                <p className="text-md text-justify md:my-4 md:mx-8 m-2">
+                <p className="m-2 text-justify text-md md:my-4 md:mx-8">
                     The KB team and committee members worked hard and made the
                     event more adventurous and encouraged participants. The
                     structured schedule allowed everyone to experience this
@@ -101,14 +103,14 @@ export default function JalmaitriCamp() {
                 </p>
                 <Image
                     loading="lazy"
-                    className="basis-1/3 mx-auto"
+                    className="mx-auto basis-1/3"
                     unoptimized
                     width={400 * 1.5}
                     height={300 * 1.5}
                     src="assets/jalmaitri_camp/jalmaitri_camp_9.jpg"
                     alt="jalmaitri_camp_9"
                 />
-                <p className="text-md text-justify md:my-4 md:mx-8 m-2">
+                <p className="m-2 text-justify text-md md:my-4 md:mx-8">
                     Other teams were enjoying various sports activities like
                     flying Kites in the open sky to playing different spots like
                     cricket , badminton and football, also Musical chair and
@@ -118,19 +120,19 @@ export default function JalmaitriCamp() {
                     not only encouraged friendly competition but also
                     strengthened bonds among the participants.
                 </p>
-                <div className="md:flex flex-row md:mx-8 md:my-4 m-2 gap-8">
+                <div className="gap-8 m-2 md:flex-row md:flex md:mx-8 md:my-4 justify-evenly">
                     <Image
                         loading="lazy"
-                        className="rounded-md p-8 basis-2/3"
+                        className="p-8 rounded-md "
                         unoptimized
-                        width={400}
+                        width={800}
                         height={300}
                         src="assets/jalmaitri_camp/jalmaitri_camp_10.jpg"
                         alt="jalmaitri_camp_10"
                     />
                     <Image
                         loading="lazy"
-                        className="rounded-md p-8 basis-1/3"
+                        className="p-8 rounded-md"
                         unoptimized
                         width={400}
                         height={300}
@@ -138,7 +140,7 @@ export default function JalmaitriCamp() {
                         alt="jalmaitri_camp_11"
                     />
                 </div>
-                <p className="text-md text-justify md:my-4 md:mx-8 m-2">
+                <p className="m-2 text-justify text-md md:my-4 md:mx-8">
                     Dinner was served soon between 8:00 - 9:30 PM As the sun
                     set, the participants gathered for a lively campfire session
                     which was between 9:30 till 11:00 PM . The evening featured
@@ -149,7 +151,7 @@ export default function JalmaitriCamp() {
                 </p>
                 <Image
                     loading="lazy"
-                    className="rounded-md p-8 basis-1/3 mx-auto"
+                    className="p-8 mx-auto rounded-md basis-1/3"
                     unoptimized
                     width={400 * 1.5}
                     height={300 * 1.5}
@@ -159,11 +161,11 @@ export default function JalmaitriCamp() {
             </section>
 
             <section className="p-1 md:p-4">
-                <h2 className="text-2xl md:my-4 md:mx-8 m-2">
+                <h2 className="m-2 text-2xl md:my-4 md:mx-8">
                     Day 2 (6th of February)
                 </h2>
-                <div className="md:flex flex-row md:mx-8 md:my-4 m-2">
-                    <p className="text-md text-justify md:my-4 md:mx-8 m-2 basis-2/3">
+                <div className="flex-row m-2 md:flex md:mx-8 md:my-4">
+                    <p className="m-2 text-justify text-md md:my-4 md:mx-8 basis-2/3">
                         The second day began with a beautiful view of Sunrise,
                         refreshing morning routine, allowing participants to
                         relax & Freshen Up from 6:30 - 7:00 AM , followed by
@@ -197,8 +199,8 @@ export default function JalmaitriCamp() {
             </section>
 
             <section className="p-1 md:p-4">
-                <h2 className="text-2xl md:my-4 md:mx-8 m-2">Conclusion</h2>
-                <p className="text-md text-justify md:my-4 md:mx-8 m-2">
+                <h2 className="m-2 text-2xl md:my-4 md:mx-8">Conclusion</h2>
+                <p className="m-2 text-justify text-md md:my-4 md:mx-8">
                     The Jalmaitri Camp was a well-structured and engaging
                     experience for all participants. The combination of
                     adventure, teamwork, and recreational activities contributed
@@ -209,6 +211,15 @@ export default function JalmaitriCamp() {
                     bonding among the participants. Overall, Jalmaitri 25 was a
                     grand success, leaving participants with lasting memories
                     and valuable experiences.
+                </p>
+                <p className="flex flex-row justify-end text-right text-md md:my-4 md:mx-8">
+                    <span className="text-lg font-bold text-gray-800 md:text-xl">
+                        - Omkar Sinare,{""}
+                    </span>
+                    &nbsp;
+                    <span className="text-lg font-bold text-gray-500 md:text-xl">
+                        Regatta Secretary
+                    </span>
                 </p>
             </section>
         </div>

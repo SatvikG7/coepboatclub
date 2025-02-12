@@ -6,20 +6,20 @@ export default function Kayaking() {
                 <img
                     src="/assets/sports/kayaking/kayaking_1.jpg"
                     alt="rowing"
-                    className="w-full h-64 object-cover"
+                    className="object-cover w-full h-64"
                 />
-                <div className="absolute bottom-0 left-0 right-0 text-black bg-slate-100 font-semibold text-5xl p-2 bg-opacity-50 drop-shadow-xl">
+                <div className="absolute bottom-0 left-0 right-0 p-2 text-5xl font-semibold text-black bg-opacity-50 bg-slate-100 drop-shadow-xl">
                     <div className="flex flex-row justify-between">
                         <h1>Kayaking</h1>
                         <a href="/gallery#kayaking">
-                            <button className="px-8 py-2 rounded-md bg-teal-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
+                            <button className="px-8 py-2 text-xl font-bold text-white transition duration-200 bg-teal-500 border-2 border-transparent rounded-md hover:bg-white hover:text-black hover:border-teal-500">
                                 Gallery
                             </button>
                         </a>
                     </div>
                 </div>
             </div>
-            <div className="p-6 text-lg max-w-3xl text-justify mx-auto">
+            <div className="max-w-3xl p-6 mx-auto text-lg text-justify">
                 <p>
                     COEP Kayaking is one of the sports activities on COEP Tech
                     Boat Club that spans all year. In flat water kayaking,

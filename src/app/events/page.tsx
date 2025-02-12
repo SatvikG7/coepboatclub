@@ -66,8 +66,8 @@ const cardData = [
 
 export default function Events() {
     return (
-        <div className="min-h-screen bg-gray-100 p-6">
-            {/* <h1 className="text-4xl font-bold text-center mb-10 decoration-dashed underline">Events</h1> */}
+        <div className="min-h-screen p-6 bg-gray-100">
+            {/* <h1 className="mb-10 text-4xl font-bold text-center underline decoration-dashed">Events</h1> */}
             <div className="space-y-8">
                 {cardData.map((card, index) => (
                     <div
@@ -85,7 +85,7 @@ export default function Events() {
                                 <h2 className="text-xl font-bold text-gray-800">
                                     {card.title}
                                 </h2>
-                                <h3 className="text-gray-600 mb-2">
+                                <h3 className="mb-2 text-gray-600">
                                     {card.date}
                                 </h3>
                                 {card.description}
@@ -96,7 +96,7 @@ export default function Events() {
                                     card.title.toLowerCase().replace(" ", "-")
                                 }
                             >
-                                <button className="px-4 py-1 rounded-md bg-teal-500 text-lg text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
+                                <button className="px-4 py-1 text-lg font-bold text-white transition duration-200 bg-teal-500 border-2 border-transparent rounded-md hover:bg-white hover:text-black hover:border-teal-500">
                                     View more images
                                 </button>
                             </a>
@@ -107,7 +107,7 @@ export default function Events() {
                             <img
                                 src={card.image}
                                 alt={card.title}
-                                className="w-full object-cover object-center h-full"
+                                className="object-cover object-center w-full h-full"
                                 loading="lazy"
                             />
                         </div>

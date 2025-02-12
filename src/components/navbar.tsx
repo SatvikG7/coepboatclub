@@ -49,9 +49,9 @@ export default function Navbar() {
                     active == "home" ? "md:fixed right-0 left-0" : ""
                 )}
             >
-                <div className="relative flex h-16 items-center justify-center">
+                <div className="relative flex items-center justify-center h-16">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                        <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
+                        <DisclosureButton className="relative inline-flex items-center justify-center p-2 text-gray-400 rounded-md group hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
                             <span className="absolute -inset-0.5" />
                             <span className="sr-only">Open main menu</span>
                             <Bars3Icon
@@ -64,7 +64,7 @@ export default function Navbar() {
                             />
                         </DisclosureButton>
                     </div>
-                    <div className="flex items-center justify-center bg-blue-950/85 rounded-full px-8 py-2">
+                    <div className="flex items-center justify-center px-8 py-2 rounded-full bg-blue-950/85">
                         <div className="hidden sm:mx-6 sm:block">
                             <div className="flex space-x-4">
                                 {navigation.map((item) => (
@@ -89,7 +89,7 @@ export default function Navbar() {
             </div>
 
             <DisclosurePanel className="sm:hidden">
-                <div className="space-y-1 px-2 pt-2 pb-3">
+                <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map((item) => (
                         <DisclosureButton
                             key={item.name}
