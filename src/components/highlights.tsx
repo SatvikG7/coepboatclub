@@ -126,6 +126,12 @@ const events = {
                 encourage students to participate in the Boat Club and to
                 motivate them to perform their best.
                 <br />
+                <div className="flex justify-center">
+                    <InstagramEmbed
+                        url="https://www.instagram.com/p/DF-YcBsoUsi/"
+                        width={328}
+                    />
+                </div>
                 <div className="flex justify-center mt-4 space-x-4">
                     <button className="px-8 py-2 font-sans text-xl font-bold text-white transition duration-200 bg-orange-500 border-2 border-transparent rounded-md hover:bg-white hover:text-black hover:border-orange-500">
                         <a href="/jalmaitri-camp">View memories</a>

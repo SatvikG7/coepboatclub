@@ -5,6 +5,7 @@ import { AnimatedTestimonials } from "@/components/testimonials";
 import { useEffect } from "react";
 import { FiInstagram, FiYoutube } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
+import Clarity from "@microsoft/clarity";
 
 const testimonials = [
     {
@@ -26,7 +27,7 @@ const testimonials = [
         src: "/assets/committee/regatta_incharge.png",
     },
     {
-        quote: "The Regatta fosters holistic development, blending technical skills with cultural heritage.",
+        quote: "Everything is energy, Your thought begins it, Your emotions amplifies it and your action increases the momentum",
         name: "Dr. M. P. Khond",
         designation: "Director, Board of Students' Development",
         src: "/assets/committee/director_bosd.jpg",
@@ -39,6 +40,10 @@ export default function Home() {
         if (video) {
             video.playbackRate = 0.5;
         }
+
+        const projectId = "q99zezs010";
+
+        Clarity.init(projectId);
     }, []);
     return (
         <div>

@@ -10,7 +10,7 @@ export default function JalmaitriCamp() {
             </h1>
             <section className="p-1 md:p-4">
                 <h2 className="m-2 text-2xl md:my-4 md:mx-8">Introduction</h2>
-                <div className="flex-row gap-8 m-2 md:flex md:mx-8 md:my-4">
+                <div className="flex-row gap-8 m-2 md:flex md:mx-8 md:my-4 items-center">
                     <p className="mx-4 text-justify text-md basis-2/3">
                         Jalmaitri 25, a two-day, one-night event held on the 5th
                         and 6th, was organized by the COEP Boat Club at the
@@ -43,9 +43,9 @@ export default function JalmaitriCamp() {
                     </p>
                     <Image
                         loading="lazy"
-                        className="rounded-md basis-1/3"
+                        className="rounded-md"
                         unoptimized
-                        width={400}
+                        width={500}
                         height={300}
                         src="assets/jalmaitri_camp/jalmaitri_camp_7.jpg"
                         alt="jalmaitri_camp_7"
@@ -56,7 +56,7 @@ export default function JalmaitriCamp() {
                 <h2 className="m-2 text-2xl md:my-4 md:mx-8">
                     Day 1 (5th of February)
                 </h2>
-                <div className="flex-row-reverse gap-8 m-2 md:flex md:mx-8 md:my-4">
+                <div className="flex-row-reverse gap-8 m-2 md:flex md:mx-8 md:my-4 items-center">
                     <p className="m-2 text-justify text-md md:my-4 md:mx-8">
                         On 5th morning all groups left for the location in 4
                         buses which were provided for transportation. The event
@@ -85,10 +85,10 @@ export default function JalmaitriCamp() {
                     </p>
                     <Image
                         loading="lazy"
-                        className="rounded-md basis-1/3"
+                        className="rounded-md"
                         unoptimized
-                        width={400}
-                        height={300}
+                        width={500}
+                        height={360}
                         src="assets/jalmaitri_camp/jalmaitri_camp_8.jpg"
                         alt="jalmaitri_camp_8"
                     />
@@ -103,7 +103,7 @@ export default function JalmaitriCamp() {
                 </p>
                 <Image
                     loading="lazy"
-                    className="mx-auto basis-1/3"
+                    className="mx-auto basis-1/3 rounded-md"
                     unoptimized
                     width={400 * 1.5}
                     height={300 * 1.5}
@@ -120,10 +120,10 @@ export default function JalmaitriCamp() {
                     not only encouraged friendly competition but also
                     strengthened bonds among the participants.
                 </p>
-                <div className="gap-8 m-2 md:flex-row md:flex md:mx-8 md:my-4 justify-evenly">
+                <div className="gap-8 m-2 md:flex-row md:flex md:mx-8 md:my-4 justify-evenly items-center">
                     <Image
                         loading="lazy"
-                        className="p-8 rounded-md "
+                        className="m-8 rounded-md"
                         unoptimized
                         width={800}
                         height={300}
@@ -132,7 +132,7 @@ export default function JalmaitriCamp() {
                     />
                     <Image
                         loading="lazy"
-                        className="p-8 rounded-md"
+                        className="m-8 rounded-md"
                         unoptimized
                         width={400}
                         height={300}
@@ -151,7 +151,7 @@ export default function JalmaitriCamp() {
                 </p>
                 <Image
                     loading="lazy"
-                    className="p-8 mx-auto rounded-md basis-1/3"
+                    className="m-8 mx-auto rounded-md basis-1/3"
                     unoptimized
                     width={400 * 1.5}
                     height={300 * 1.5}
@@ -164,7 +164,7 @@ export default function JalmaitriCamp() {
                 <h2 className="m-2 text-2xl md:my-4 md:mx-8">
                     Day 2 (6th of February)
                 </h2>
-                <div className="flex-row m-2 md:flex md:mx-8 md:my-4">
+                <div className="flex-row m-2 md:flex md:mx-8 md:my-4 items-center">
                     <p className="m-2 text-justify text-md md:my-4 md:mx-8 basis-2/3">
                         The second day began with a beautiful view of Sunrise,
                         refreshing morning routine, allowing participants to
@@ -188,7 +188,7 @@ export default function JalmaitriCamp() {
                     </p>
                     <Image
                         loading="lazy"
-                        className="rounded-md basis-1/3"
+                        className="rounded-md"
                         unoptimized
                         width={400}
                         height={300}
