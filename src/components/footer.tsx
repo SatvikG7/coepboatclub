@@ -1,5 +1,4 @@
-"use client";
-
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 import Image from "next/image";
 
@@ -35,6 +34,33 @@ function Footer() {
                         </a>
                     </p>
                 </div>
+
+                <div className="mb-4 text-center md:text-left md:mb-0">
+                    <p>Links:</p>
+                    <div className="flex flex-col justify-center  md:justify-start">
+                        <a className="underline" href="/">
+                            Home
+                        </a>
+                        <a className="underline" href="/sports">
+                            Sports
+                        </a>
+                        <a className="underline" href="/events">
+                            Events
+                        </a>
+                        <a className="underline" href="/jalmaitri-camp">
+                            Jalmaitri Camp
+                        </a>
+                        <a className="underline" href="/committee">
+                            Committee
+                        </a>
+                        <a className="underline" href="/gallery">
+                            Gallery
+                        </a>
+                        <a className="underline" href="/contact-us">
+                            Contact
+                        </a>
+                    </div>
+                </div>
                 <Image
                     src="/bclogo-full.jpg"
                     alt="Logo"
@@ -42,6 +68,7 @@ function Footer() {
                     className="w-40"
                     width={40}
                     height={40}
+                    unoptimized
                 />
             </div>
             <div className="w-full text-center text-white bg-black">

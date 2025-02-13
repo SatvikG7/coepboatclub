@@ -46,7 +46,7 @@ export default function JalmaitriCamp() {
                         className="rounded-md"
                         width={500}
                         height={300}
-                        src="assets/jalmaitri_camp/jalmaitri_camp_7.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_camp_7.jpg"
                         alt="jalmaitri_camp_7"
                     />
                 </div>
@@ -87,7 +87,7 @@ export default function JalmaitriCamp() {
                         className="rounded-md"
                         width={500}
                         height={360}
-                        src="assets/jalmaitri_camp/jalmaitri_camp_8.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_camp_8.jpg"
                         alt="jalmaitri_camp_8"
                     />
                 </div>
@@ -104,7 +104,7 @@ export default function JalmaitriCamp() {
                     className="mx-auto basis-1/3 rounded-md"
                     width={400 * 1.5}
                     height={300 * 1.5}
-                    src="assets/jalmaitri_camp/jalmaitri_camp_9.jpg"
+                    src="/assets/jalmaitri_camp/jalmaitri_camp_9.jpg"
                     alt="jalmaitri_camp_9"
                 />
                 <p className="m-2 text-justify text-md md:my-4 md:mx-8">
@@ -123,7 +123,7 @@ export default function JalmaitriCamp() {
                         className="m-8 rounded-md"
                         width={800}
                         height={300}
-                        src="assets/jalmaitri_camp/jalmaitri_camp_10.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_camp_10.jpg"
                         alt="jalmaitri_camp_10"
                     />
                     <Image
@@ -131,7 +131,7 @@ export default function JalmaitriCamp() {
                         className="m-8 rounded-md"
                         width={400}
                         height={300}
-                        src="assets/jalmaitri_camp/jalmaitri_camp_11.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_camp_11.jpg"
                         alt="jalmaitri_camp_11"
                     />
                 </div>
@@ -149,7 +149,7 @@ export default function JalmaitriCamp() {
                     className="m-8 mx-auto rounded-md basis-1/3"
                     width={400 * 1.5}
                     height={300 * 1.5}
-                    src="assets/jalmaitri_camp/jalmaitri_camp_12.jpg"
+                    src="/assets/jalmaitri_camp/jalmaitri_camp_12.jpg"
                     alt="jalmaitri_camp_12"
                 />
             </section>
@@ -185,7 +185,7 @@ export default function JalmaitriCamp() {
                         className="rounded-md"
                         width={400}
                         height={300}
-                        src="assets/jalmaitri_camp/jalmaitri_camp_13.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_camp_13.jpg"
                         alt="jalmaitri_camp_13"
                     />
                 </div>
