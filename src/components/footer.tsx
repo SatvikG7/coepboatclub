@@ -36,9 +36,9 @@ function Footer() {
                     </p>
                 </div>
                 <Image
-                    unoptimized
                     src="/bclogo-full.jpg"
                     alt="Logo"
+                    loading="lazy"
                     className="w-40"
                     width={40}
                     height={40}

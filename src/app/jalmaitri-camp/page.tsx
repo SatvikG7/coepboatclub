@@ -44,7 +44,6 @@ export default function JalmaitriCamp() {
                     <Image
                         loading="lazy"
                         className="rounded-md"
-                        unoptimized
                         width={500}
                         height={300}
                         src="assets/jalmaitri_camp/jalmaitri_camp_7.jpg"
@@ -86,7 +85,6 @@ export default function JalmaitriCamp() {
                     <Image
                         loading="lazy"
                         className="rounded-md"
-                        unoptimized
                         width={500}
                         height={360}
                         src="assets/jalmaitri_camp/jalmaitri_camp_8.jpg"
@@ -104,7 +102,6 @@ export default function JalmaitriCamp() {
                 <Image
                     loading="lazy"
                     className="mx-auto basis-1/3 rounded-md"
-                    unoptimized
                     width={400 * 1.5}
                     height={300 * 1.5}
                     src="assets/jalmaitri_camp/jalmaitri_camp_9.jpg"
@@ -124,7 +121,6 @@ export default function JalmaitriCamp() {
                     <Image
                         loading="lazy"
                         className="m-8 rounded-md"
-                        unoptimized
                         width={800}
                         height={300}
                         src="assets/jalmaitri_camp/jalmaitri_camp_10.jpg"
@@ -133,7 +129,6 @@ export default function JalmaitriCamp() {
                     <Image
                         loading="lazy"
                         className="m-8 rounded-md"
-                        unoptimized
                         width={400}
                         height={300}
                         src="assets/jalmaitri_camp/jalmaitri_camp_11.jpg"
@@ -152,7 +147,6 @@ export default function JalmaitriCamp() {
                 <Image
                     loading="lazy"
                     className="m-8 mx-auto rounded-md basis-1/3"
-                    unoptimized
                     width={400 * 1.5}
                     height={300 * 1.5}
                     src="assets/jalmaitri_camp/jalmaitri_camp_12.jpg"
@@ -189,7 +183,6 @@ export default function JalmaitriCamp() {
                     <Image
                         loading="lazy"
                         className="rounded-md"
-                        unoptimized
                         width={400}
                         height={300}
                         src="assets/jalmaitri_camp/jalmaitri_camp_13.jpg"
