@@ -120,7 +120,7 @@ export default function JalmaitriCamp() {
                 <div className="gap-8 m-2 md:flex-row md:flex md:mx-8 md:my-4 justify-evenly items-center">
                     <Image
                         loading="lazy"
-                        className="m-8 rounded-md"
+                        className="rounded-md"
                         width={800}
                         height={300}
                         src="/assets/jalmaitri_camp/jalmaitri_camp_10.jpg"
@@ -128,7 +128,7 @@ export default function JalmaitriCamp() {
                     />
                     <Image
                         loading="lazy"
-                        className="m-8 rounded-md"
+                        className="rounded-md"
                         width={400}
                         height={300}
                         src="/assets/jalmaitri_camp/jalmaitri_camp_11.jpg"
