@@ -145,9 +145,80 @@ const events = {
             </p>
         </div>
     ),
+
+    regatta_invitation: (
+        <div>
+            <p>
+                We are delighted to invite you to be a part of the 97th glorious
+                year of the COEP Regatta—a cherished tradition that symbolizes
+                passion, perseverance, and excellence on the water.
+                <br />
+                <br />
+                &quot;With every stroke, we push beyond the horizon, chasing new
+                dreams and endless possibilities.&quot;
+                <br />
+                <br />
+                Your presence will add to the spirit of this historic
+                celebration and make it even more special!
+                <br />
+                <br />
+                Event Details: <br /> Date: 16th March 2025 <br /> Venue: COEP
+                Boat Club Time: 4 PM onwards <br />
+                Join Virtually:{" "}
+                <a className="underline text-blue-600" href="/livestream">
+                    Youtube
+                </a>
+                <br />
+                <br />
+                Join us as we mark this incredible milestone with enthusiasm,
+                adventure, and the true spirit of teamwork. Let&apos;s come
+                together to honor this legacy and create unforgettable memories!
+                <br />
+                <br />
+                We look forward to celebrating with you.
+                <br />
+                <br />
+                Warm regards,
+                <br /> 97th Regatta Organizing Team <br /> COEP Boat Club
+            </p>
+
+            <div>
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/regatta_invitation/page-1.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/regatta_invitation/page-2.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/regatta_invitation/page-3.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/regatta_invitation/page-4.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+            </div>
+        </div>
+    ),
 };
 
 const data = [
+    {
+        date: "",
+        title: "",
+        src: "/assets/regatta_invitation/page-1.jpg",
+        content: events["regatta_invitation"],
+    },
     {
         date: "05/02/2025 - 06/02/2025",
         title: "Jalmaitri Camp",
