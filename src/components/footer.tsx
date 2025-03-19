@@ -72,8 +72,15 @@ function Footer() {
                 />
             </div>
             <div className="w-full text-center text-white bg-black">
-                © 2025 COEP Tech Boat Club. Site developed by BMC Web
-                Development Team
+                Site developed by{" "}
+                <a
+                    href="https://github.com/satvikg7"
+                    className="underline text-blue-500"
+                    target="_blank"
+                >
+                    Satvik Gaikwad (BMC WEB HEAD)
+                </a>
+                <br />© 2025 COEP Tech Boat Club
             </div>
         </footer>
     );
