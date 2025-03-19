@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
 const Faculty = [
@@ -134,6 +133,15 @@ const BMC = [
         instagram: "https://www.instagram.com/_sahil_wagde_",
     },
     {
+        name: "Satvik Gaikwad",
+        post: "Web Development Head",
+        mail: "gaikwadss22.extc@coeptech.ac.in",
+        img_path: "web_head.jpg",
+        linkedin: "https://www.linkedin.com/in/satvikg7",
+        instagram: "https://www.instagram.com/satvik_gaikwad_7",
+        github: "https://github.com/satvikg7",
+    },
+    {
         name: "Anushka Tanpure",
         post: "S.Y. Ladies Representative",
         mail: "tanpureav23.rai@coeptech.ac.in",
@@ -225,6 +233,11 @@ export default function Committee() {
                                     {F.mail && (
                                         <a href={"mailto:" + F.mail}>
                                             <IoMail className="text-2xl text-blue-700" />
+                                        </a>
+                                    )}
+                                    {F.github && (
+                                        <a href={F.github}>
+                                            <FaGithub className="text-2xl text-black" />
                                         </a>
                                     )}
                                 </p>
