@@ -62,25 +62,21 @@ const Faculty = [
 
 const BMC = [
     {
-        name: "Yash Kane",
+        name: "Kartik Kshirsagar",
         post: "General Secretary",
-        mail: "kaneyu21.meta@coeptech.ac.in",
-        linkedin: "https://www.linkedin.com/in/yash-kane-24b92b265",
-        instagram: "https://www.instagram.com/yash.kane",
+        mail: "ukhandekt22.instru@coeptech.ac.in",
         img_path: "secretary.png",
     },
     {
-        name: "Viraj Gandhi",
+        name: "Darshan Bhagwat",
         post: "Auditor",
-        mail: "virajg21.comp@coeptech.ac.in",
+        mail: "bhagwatdm22.mech@coeptech.ac.in",
         img_path: "auditor.png",
-        linkedin: "http://www.linkedin.com/in/viraj-gandhi-66b402230",
-        instagram: "http://www.instagram.com/viraj__2507",
     },
     {
-        name: "Omkar Sinare",
+        name: "Yuvraj Fulsoundar",
         post: "Regatta Secretary",
-        mail: "sinareos22.elec@coeptech.ac.in",
+        mail: "fulsoundaryp23.elec@coeptech.ac.in",
         img_path: "regatta_secretary.jpg",
     },
 
