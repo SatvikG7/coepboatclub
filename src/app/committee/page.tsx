@@ -62,25 +62,21 @@ const Faculty = [
 
 const BMC = [
     {
-        name: "Yash Kane",
+        name: "Kartik Kshirsagar",
         post: "General Secretary",
-        mail: "kaneyu21.meta@coeptech.ac.in",
-        linkedin: "https://www.linkedin.com/in/yash-kane-24b92b265",
-        instagram: "https://www.instagram.com/yash.kane",
+        mail: "ukandekt22.instru@coeptech.ac.in",
         img_path: "secretary.png",
     },
     {
-        name: "Viraj Gandhi",
+        name: "Darshan Bhagwat",
         post: "Auditor",
-        mail: "virajg21.comp@coeptech.ac.in",
+        mail: "bhagwatdm22.mech@coeptech.ac.in",
         img_path: "auditor.png",
-        linkedin: "http://www.linkedin.com/in/viraj-gandhi-66b402230",
-        instagram: "http://www.instagram.com/viraj__2507",
     },
     {
-        name: "Omkar Sinare",
+        name: "Yuvraj Fulsoundar",
         post: "Regatta Secretary",
-        mail: "sinareos22.elec@coeptech.ac.in",
+        mail: "fulsoundaryp23.elec@coeptech.ac.in",
         img_path: "regatta_secretary.jpg",
     },
 
@@ -197,7 +193,7 @@ export default function Committee() {
 
             <div className="flex flex-col items-center justify-center p-8">
                 <h1 className="mb-8 text-3xl text-center underline">
-                    Boat Club Managing Committee (BMC) 2024-25
+                    Boat Club Managing Committee (BMC) 2025-26
                 </h1>
                 <div className="flex flex-row flex-wrap gap-6 justify-evenly">
                     {BMC.map((F, i) => {
@@ -245,6 +241,13 @@ export default function Committee() {
                         );
                     })}
                 </div>
+            </div>
+            <div className="flex justify-center">
+                <button className="px-4 py-2 mt-2 mb-4 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">
+                    <a href="/previous-committee">
+                        Previous Committee (2024-25)
+                    </a>
+                </button>
             </div>
         </div>
     );
