@@ -159,7 +159,7 @@ const BMC = [
         name: "Neha Bhagwat",
         post: "S.Y. Rowing Representative",
         mail: "bhagwatns24.elec@coeptech.ac.in",
-        img_path: "",
+        img_path: "sy_rr2.jpg",
         linkedin: "https://www.linkedin.com/in/neha-bhagwat-46b176375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         instagram: "https://www.instagram.com/_nehabhagwat?igsh=MWgwY3NhMnlndDNzNg%3D%3D&utm_source=qr",
     },

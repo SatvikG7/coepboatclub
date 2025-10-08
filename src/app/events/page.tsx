@@ -3,6 +3,68 @@ import { cn } from "@/lib/utils";
 import React from "react";
 
 const cardData = [
+    
+    {
+        title: "Deepotsav",
+        date: "24/10/2024",
+        description: (
+            <div>
+                <p>
+                    On this occasion, the Boat Club is decorated with
+                    &quot;Diyas&quot; to have a glimpse of the festival of
+                    Diwali. Every corner is lit with diyas and there isn&apos;t
+                    a single spot of darkness. Everybody enjoys this sight with
+                    laughter and joy as they realise how amazing our boat club
+                    really is.
+                </p>
+            </div>
+        ),
+        image: "/assets/deepotsav/deepotsav_1.jpg",
+    },
+    {
+        title: "Moonlight Punting",
+        date: "06/10/2025",
+        description: (
+            <div>
+                <p>
+                    Moonlight Punting is held on the occasion of &apos;Kojagiri
+                    Purnima&apos; (Full Moon). Everyone is given a chance to
+                    ride a punt in the dimly lit waters of the Mula river.{" "}
+                    <br /> Under the beautiful Full Moon and with the company of
+                    friends, this event is enjoyed by many students of COEP. It
+                    is concluded by providing everyone with the traditional
+                    Masala Doodh - enjoyed as a refreshment on Kojagiri. <br />{" "}
+                   
+                </p>
+            </div>
+        ),
+        image: "/assets/moonlight_punting/moonlight_punting_1.jpg",
+    },
+    {
+        title: "Rise Of The Fittest",
+        date: "01/10/2025",
+        description: (
+            <div>
+                <p>
+                    COEP celebrated Khande Navami Pooja with an energetic Gym Competition - Rise of the Fittest at the Boat Club, where BTech and MTech students competed in teams through challenges like rowing, push-ups, pull-ups, squats, and skipping. The event showcased incredible fitness, teamwork, and festive spirit, with exciting prizes and refreshments for the winners.
+                    
+                </p>
+            </div>
+        ),
+        image: "/assets/rise_of_the_fittest/rise.jpg",
+    },
+    {
+        title: "Mini Regatta",
+        description: (
+            <div>
+                <p>
+                    Celebrating the joy of setting sail at our Mini Regatta! To introduce with you our annual event, we organised a glimpse of it. Mini Regatta sets just a trailer of Regatta. We proudly inaugurate this nautical spectacle, where every ripple signifies new beginnings. <br />{" "}
+                    
+                </p>
+            </div>
+        ),
+        image: "/assets/mini_regatta/mini_regatta.jpg",
+    },
     {
         title: "Regatta Inauguration",
         date: "13/12/2024",
@@ -25,42 +87,26 @@ const cardData = [
         image: "/assets/regatta_inauguration/regatta_inauguration_1.jpg",
     },
     {
-        title: "Deepotsav",
-        date: "24/10/2024",
+        title: "Alumni Races",
         description: (
             <div>
                 <p>
-                    On this occasion, the Boat Club is decorated with
-                    &quot;Diyas&quot; to have a glimpse of the festival of
-                    Diwali. Every corner is lit with diyas and there isn&apos;t
-                    a single spot of darkness. Everybody enjoys this sight with
-                    laughter and joy as they realise how amazing our boat club
-                    really is.
+Alumni form a solid foundation for Regatta upon which we have built its long history. Presenting before you, the Alumni races of COEP Regatta. Be there to witness the thrill.
                 </p>
             </div>
         ),
-        image: "/assets/deepotsav/deepotsav_1.jpg",
+        image: "/assets/alumni_races/alumni_racing.jpg",
     },
     {
-        title: "Moonlight Punting",
-        date: "16/10/2024",
+        title: "Treasure Hunt",
         description: (
             <div>
                 <p>
-                    Moonlight Punting is held on the occasion of &apos;Kojagiri
-                    Purnima&apos; (Full Moon). Everyone is given a chance to
-                    ride a punt in the dimly lit waters of the Mula river.{" "}
-                    <br /> Under the beautiful Full Moon and with the company of
-                    friends, this event is enjoyed by many students of COEP. It
-                    is concluded by providing everyone with the traditional
-                    Masala Doodh - enjoyed as a refreshment on Kojagiri. <br />{" "}
-                    <b className="text-gray-700">
-                        Kshitij Prashant Nazirkar - Punt Formation Secretary
-                    </b>
+                    “Treasure hunt” one of the most awaited event was organized for first-year students second-year students . The main aim of the event was to drift the students away from their academic routine.
                 </p>
             </div>
         ),
-        image: "/assets/moonlight_punting/moonlight_punting_1.jpg",
+        image: "/assets/survival_of_the_fittest/survival_of_the_fittest_1.jpg",
     },
 ];
 
