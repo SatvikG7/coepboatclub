@@ -117,6 +117,19 @@ const events = {
             </div>
         </div>
     ),
+    rise_of_the_fittest: (
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
+                COEP celebrated Khande Navami Pooja with an energetic Gym Competition - Rise of the Fittest at the Boat Club, where BTech and MTech students competed in teams through challenges like rowing, push-ups, pull-ups, squats, and skipping. The event showcased incredible fitness, teamwork, and festive spirit, with exciting prizes and refreshments for the winners.
+            </p>
+            <div className="flex justify-center">
+                <InstagramEmbed
+                    url="https://www.instagram.com/p/DFx_F7Iozp9/"
+                    width={328}
+                />
+            </div>
+        </div>
+    ),
     jalmaitri_camp: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
@@ -213,6 +226,19 @@ const events = {
 };
 
 const data = [
+    
+    {
+        date: "07/10/2025",
+        title: "Moonlight Punting",
+        src: "/assets/moonlight_punting/moonlight.jpg",
+        content: events["moonlight_punting"],
+    },
+    {
+        date: "01/10/2025",
+        title: "Rise Of The Fittest",
+        src: "/assets/rise_of_the_fittest/rise.jpg",
+        content: events["rise_of_the_fittest"],
+    },
     {
         date: "",
         title: "",
@@ -248,11 +274,5 @@ const data = [
         title: "Deepotsav",
         src: "/assets/deepotsav/deepotsav_1.jpg",
         content: events["deepotsav"],
-    },
-    {
-        date: "16/10/2024",
-        title: "Moonlight Punting",
-        src: "/assets/moonlight_punting/moonlight_punting_1.jpg",
-        content: events["moonlight_punting"],
     },
 ];
