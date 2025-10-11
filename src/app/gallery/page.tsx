@@ -4,6 +4,26 @@ import React from "react";
 
 const galleryData = [
     {
+        title: "Moonlight Punting",
+        images: [
+            "/assets/moonlight_punting/boat1.jpg",
+            "/assets/moonlight_punting/moon.jpg",
+            "/assets/moonlight_punting/punts.jpg",
+            "/assets/moonlight_punting/moonlight.jpg",
+            "/assets/moonlight_punting/moonlight_punting_1.jpg",
+            "/assets/moonlight_punting/child.jpg",
+            "/assets/moonlight_punting/moonlight_punting_2.jpg",
+        ],
+    },
+    {
+        title: "Rise Of The Fittest",
+        images: [
+            "/assets/rise_of_the_fittest/action.jpeg",
+            "/assets/rise_of_the_fittest/rise.jpg",
+            "/assets/rise_of_the_fittest/commitee.jpg",            
+        ],
+    },
+    {
         title: "Jalmaitri Camp 2023-24",
         images: [
             "/assets/jalmaitri_camp/jalmaitri_camp_1.jpg",
@@ -48,13 +68,7 @@ const galleryData = [
             "/assets/sports/rowing/rowing_6.jpg",
         ],
     },
-    {
-        title: "Moonlight Punting",
-        images: [
-            "/assets/moonlight_punting/moonlight_punting_1.jpg",
-            "/assets/moonlight_punting/moonlight_punting_2.jpg",
-        ],
-    },
+    
     {
         title: "Indoor Rowing",
         images: [

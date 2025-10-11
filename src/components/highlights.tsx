@@ -82,6 +82,39 @@ const events = {
                 providing everyone with the traditional Masala Doodh - enjoyed
                 as a refreshment on Kojagiri.
             </p>
+            <div>
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/moonlight_punting/boat1.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/moonlight_punting/moon.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/moonlight_punting/boat.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/moonlight_punting/moonlight.jpg"
+                    
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/moonlight_punting/child.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+            </div>
         </div>
     ),
     mit_sports_meet: (
@@ -126,6 +159,26 @@ const events = {
                 <InstagramEmbed
                     url="https://www.instagram.com/p/DFx_F7Iozp9/"
                     width={328}
+                />
+            </div>
+            <div>
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/rise_of_the_fittest/action.jpeg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/rise_of_the_fittest/rise.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/rise_of_the_fittest/commitee.jpg"
+                    alt="regatta_invitation"
+                    loading="lazy"
                 />
             </div>
         </div>
@@ -230,13 +283,13 @@ const data = [
     {
         date: "07/10/2025",
         title: "Moonlight Punting",
-        src: "/assets/moonlight_punting/moonlight.jpg",
+        src: "/assets/moonlight_punting/boat1.jpg",
         content: events["moonlight_punting"],
     },
     {
         date: "01/10/2025",
         title: "Rise Of The Fittest",
-        src: "/assets/rise_of_the_fittest/rise.jpg",
+        src: "/assets/rise_of_the_fittest/action.jpeg",
         content: events["rise_of_the_fittest"],
     },
     {
