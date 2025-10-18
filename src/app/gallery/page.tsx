@@ -4,6 +4,26 @@ import React from "react";
 
 const galleryData = [
     {
+        title: "Deepotsav",
+        images: [
+            
+            "/assets/deepotsav/2025.jpg",
+            "/assets/deepotsav/20257.jpeg",
+            "/assets/deepotsav/20258.jpeg",
+            "/assets/deepotsav/20259.jpeg",
+            "/assets/deepotsav/20250.jpeg",
+            "/assets/deepotsav/20253.jpeg",
+            "/assets/deepotsav/20254.jpeg",
+            "/assets/deepotsav/20255.jpeg",
+            "/assets/deepotsav/20256.jpeg",
+            "/assets/deepotsav/deepotsav_1.jpg",
+            "/assets/deepotsav/deepotsav_2.jpg",
+            "/assets/deepotsav/deepotsav_3.jpg",
+            "/assets/deepotsav/deepotsav_4.jpg",
+            "/assets/deepotsav/deepotsav_5.jpg"
+        ],
+    },
+    {
         title: "Moonlight Punting",
         images: [
             "/assets/moonlight_punting/boat1.jpg",
@@ -34,16 +54,7 @@ const galleryData = [
             "/assets/jalmaitri_camp/jalmaitri_camp_6.jpg",
         ],
     },
-    {
-        title: "Deepotsav",
-        images: [
-            "/assets/deepotsav/deepotsav_1.jpg",
-            "/assets/deepotsav/deepotsav_2.jpg",
-            "/assets/deepotsav/deepotsav_3.jpg",
-            "/assets/deepotsav/deepotsav_4.jpg",
-            "/assets/deepotsav/deepotsav_5.jpg",
-        ],
-    },
+    
     {
         title: "Kayaking",
         images: [

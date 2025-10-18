@@ -37,11 +37,38 @@ const events = {
             </p>
         </div>
     ),
+/*
+    "/assets/deepotsav/2025.jpg",
+            "/assets/deepotsav/20257.jpeg",
+            "/assets/deepotsav/20258.jpeg",
+            "/assets/deepotsav/20259.jpeg",
+            "/assets/deepotsav/20250.jpeg",
+            "/assets/deepotsav/20253.jpeg",
+            "/assets/deepotsav/20254.jpeg",
+            "/assets/deepotsav/20255.jpeg",
+            "/assets/deepotsav/20256.jpeg",
+            "/assets/deepotsav/deepotsav_1.jpg",
+            "/assets/deepotsav/deepotsav_2.jpg",
+            "/assets/deepotsav/deepotsav_3.jpg",
+            "/assets/deepotsav/deepotsav_4.jpg",
+            "/assets/deepotsav/deepotsav_5.jpg"
+            */
     deepotsav: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <img
                 className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
-                src="/assets/deepotsav/deepotsav_1.jpg"
+                src="/assets/deepotsav/20257.jpeg"
+                alt="deepotsav"
+                loading="lazy"
+            />
+            <img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/20258.jpeg"
+                alt="deepotsav"
+                loading="lazy"
+            /><img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/20259.jpeg"
                 alt="deepotsav"
                 loading="lazy"
             />
@@ -54,7 +81,12 @@ const events = {
             </p>
             <img
                 className="m-4 mx-auto md:w-2/3 rounded-3xl"
-                src="/assets/deepotsav/deepotsav_3.jpg"
+                src="/assets/deepotsav/20250.jpeg"
+                alt="deepotsav"
+                loading="lazy"
+            /><img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/20253.jpeg"
                 alt="deepotsav"
                 loading="lazy"
             />
@@ -62,10 +94,43 @@ const events = {
                 Every corner was lit with diyas and there isn&apos;t a single
                 spot of darkness. Everybody enjoyed this sight with laughter and
                 joy as they realise how amazing our boat club really is.
-            </p>
+            </p><img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/20255.jpeg"
+                alt="deepotsav"
+                loading="lazy"
+            /><img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/20254.jpeg"
+                alt="deepotsav"
+                loading="lazy"
+            /><img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/20256.jpeg"
+                alt="deepotsav"
+                loading="lazy"
+            />
+            <img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/deepotsav_1.jpg"
+                alt="deepotsav"
+                loading="lazy"
+            />
             <img
                 className="m-4 mx-auto md:w-2/3 rounded-3xl"
                 src="/assets/deepotsav/deepotsav_2.jpg"
+                alt="deepotsav"
+                loading="lazy"
+            />
+            <img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/deepotsav_3.jpg"
+                alt="deepotsav"
+                loading="lazy"
+            />
+            <img
+                className="m-4 mx-auto md:w-2/3 rounded-3xl"
+                src="/assets/deepotsav/deepotsav_5.jpg"
                 alt="deepotsav"
                 loading="lazy"
             />
@@ -279,7 +344,12 @@ const events = {
 };
 
 const data = [
-    
+    {
+        date: "15/10/2024",
+        title: "Deepotsav",
+        src: "/assets/deepotsav/20253.jpeg",
+        content: events["deepotsav"],
+    },
     {
         date: "07/10/2025",
         title: "Moonlight Punting",
@@ -321,11 +391,6 @@ const data = [
         title: "Regatta Inauguration",
         src: "/assets/regatta_inauguration/regatta_inauguration_1.jpg",
         content: events["regatta_inaguration"],
-    },
-    {
-        date: "24/10/2024",
-        title: "Deepotsav",
-        src: "/assets/deepotsav/deepotsav_1.jpg",
-        content: events["deepotsav"],
-    },
+    }
+    
 ];

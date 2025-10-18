@@ -19,7 +19,7 @@ const cardData = [
                 </p>
             </div>
         ),
-        image: "/assets/deepotsav/deepotsav_1.jpg",
+        image: "/assets/deepotsav/20254.jpeg",
     },
     {
         title: "Moonlight Punting",
@@ -38,7 +38,7 @@ const cardData = [
                 </p>
             </div>
         ),
-        image: "/assets/moonlight_punting/moonlight_punting_1.jpg",
+        image: "/assets/moonlight_punting/boat1.jpg",
     },
     {
         title: "Rise Of The Fittest",
