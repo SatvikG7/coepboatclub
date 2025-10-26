@@ -16,7 +16,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: "Home", href: "/" },
-    { name: "Sports and Competetions", href: "/sports" },
+    { name: "Sports and Competitions", href: "/sports" },
     { name: "Events", href: "/events" },
     { name: "Jalmaitri Camp", href: "/jalmaitri-camp" },
     { name: "Regatta", href: "https://regatta.coepboatclub.com" },

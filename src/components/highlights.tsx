@@ -353,7 +353,7 @@ const data = [
     {
         date: "07/10/2025",
         title: "Moonlight Punting",
-        src: "/assets/moonlight_punting/boat1.jpg",
+        src: "/assets/moonlight_punting/boat1.JPG",
         content: events["moonlight_punting"],
     },
     {
