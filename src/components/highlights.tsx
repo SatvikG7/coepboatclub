@@ -150,7 +150,7 @@ const events = {
             <div>
                 <img
                     className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
-                    src="/assets/moonlight_punting/boat1.jpg"
+                    src="/assets/moonlight_punting/boat1.JPG"
                     alt="regatta_invitation"
                     loading="lazy"
                 />
@@ -162,7 +162,7 @@ const events = {
                 />
                 <img
                     className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
-                    src="/assets/moonlight_punting/boat.jpg"
+                    src="/assets/moonlight_punting/boat.JPG"
                     alt="regatta_invitation"
                     loading="lazy"
                 />
@@ -175,7 +175,7 @@ const events = {
                 />
                 <img
                     className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
-                    src="/assets/moonlight_punting/child.jpg"
+                    src="/assets/moonlight_punting/child.JPG"
                     alt="regatta_invitation"
                     loading="lazy"
                 />
