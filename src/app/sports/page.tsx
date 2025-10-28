@@ -306,7 +306,7 @@ const competitions = [
     name: "All India University Rowing, Chandigarh Punjab",
     participants: 20,
     achievements:
-      "2 female rowers selected for Khelo India Trials and Double Scull by Shreeram and Kartik",
+      "2 female rowers selected for Khelo India Trials snd Double Scull by Shreeram and Kartik",
     media: [
       "/assets/competitions/AIU_rowing.jpg",
       "/assets/competitions/AIU_rowing2.jpg",
@@ -318,7 +318,7 @@ const competitions = [
     name: "All India University Kayaking and Canoeing, Chandigarh Punjab",
     participants: 20,
     achievements:
-      "Double Scull by Shreeram and Kartik; Quadrupole Scull by Shreeram, Kartik, Rajnandan and Prashant; Single Scull by Kartik Kshirsagar",
+      "Double Scull by Shreeram and Kartik, Quadrupole Scull by Shreeram, Kartik, Rajnandan and Prashant and Single Scull by Kartik Kshirsagar",
     media: [
       "/assets/competitions/AIU_kayaking1.jpg",
       "/assets/competitions/AIU_kayaking2.jpg",
@@ -366,7 +366,7 @@ const competitions = [
     name: "MRA State Rowing Championships",
     participants: 20,
     achievements:
-      "Gold in Quadruple Scull (M4X), Silver in Double Scull (M2X) & Bronze in Single Scull",
+      "Gold in Quadruple Scull (M4X), Silver in Double Scull (M2X) and Bronze in Single Scull",
     media: [
       "/assets/competitions/MRA_state1.jpg",
       "/assets/competitions/MRA_state2.jpg",
