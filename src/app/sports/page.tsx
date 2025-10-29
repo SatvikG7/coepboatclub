@@ -306,7 +306,7 @@ const competitions = [
     name: "All India University Rowing, Chandigarh Punjab",
     participants: 20,
     achievements:
-      "2 female rowers selected for Khelo India Trials snd Double Scull by Shreeram and Kartik",
+      "women's double scull and men's pair selected for Khelo India and participated in Men's - single scull , double scull, pair and four & Women's - Double scull",
     media: [
       "/assets/competitions/AIU_rowing.jpg",
       "/assets/competitions/AIU_rowing2.jpg",
@@ -318,7 +318,7 @@ const competitions = [
     name: "All India University Kayaking and Canoeing, Chandigarh Punjab",
     participants: 20,
     achievements:
-      "Double Scull by Shreeram and Kartik, Quadrupole Scull by Shreeram, Kartik, Rajnandan and Prashant and Single Scull by Kartik Kshirsagar",
+      "Participated in k2 and k4 for 200m and 1000m events",
     media: [
       "/assets/competitions/AIU_kayaking1.jpg",
       "/assets/competitions/AIU_kayaking2.jpg",
@@ -328,13 +328,13 @@ const competitions = [
   {
     name: "National Kayaking and Canoeing Championship",
     participants: 15,
-    achievements: "1 Gold, 2 Silver and 3 Bronze medals",
+    achievements: "K2 for selected to represent Maharshtra ",
     media: [],
   },
   {
-    name: "Dragon Boat National Championship",
+    name: "National Dragon Boat Championship",
     participants: 15,
-    achievements: "1 Gold, 2 Silver and 3 Bronze medals",
+    achievements: "2 Silver and 4 Bronze medals",
     media: [
       "/assets/competitions/Dragon.jpg",
       "/assets/competitions/dragon1.jpg",
@@ -344,13 +344,13 @@ const competitions = [
   {
     name: "National Indoor Rowing Championship at Moga, Punjab",
     participants: 5,
-    achievements: "Represented Maharashtra Team in Nationals",
+    achievements: "6 players from COEP represented Maharashtra Team in Nationals",
     media: [],
   },
   {
-    name: "Canoe polo National championship - indore",
+    name: "Canoe Polo National Championship – Indore",
     participants: 15,
-    achievements: "Represented Maharashtra Team in Nationals",
+    achievements: "COEP team represented Maharashtra Team in Nationals",
     media: [
       "/assets/competitions/polo.jpg",
       "/assets/competitions/polo1.jpg",
@@ -366,7 +366,7 @@ const competitions = [
     name: "MRA State Rowing Championships",
     participants: 20,
     achievements:
-      "Gold in Quadruple Scull (M4X), Silver in Double Scull (M2X) and Bronze in Single Scull",
+      "Gold in Quadruple Scull (M4X), Silver in Double Scull (M2X) and Bronze in Single Scull(M1X)",
     media: [
       "/assets/competitions/MRA_state1.jpg",
       "/assets/competitions/MRA_state2.jpg",
@@ -392,7 +392,7 @@ const competitions = [
   {
     name: "MIT ADT Vishwanathan Sports Meet - Indoor Rowing Competitions",
     participants: 5,
-    achievements: "Represented Maharashtra Team in Nationals",
+    achievements: "6 Silver medals",
     media: [
       "/assets/competitions/MIT_ADT.jpg",
       "/assets/competitions/MIT_ADT1.jpg",
