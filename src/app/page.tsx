@@ -128,7 +128,7 @@ export default function Home() {
             </div>
 
             {/* Latest Highlights */}
-            <div className="w-full px-6 py-6 bg-gradient-to-r from-blue-400 to-blue-500">
+            <div className="w-full px-6 py-6 bg-gradient-to-r from-blue-300 to-blue-500">
                 <Highlights />
             </div>
 
@@ -140,8 +140,8 @@ export default function Home() {
                 />
             </div>
             {/* Explore Section */}
-            <div className="p-2 md:p-8 bg-gradient-to-b from-yellow-100 to-yellow-300">
-                <div className="flex flex-col items-center justify-center gap-4 p-4 bg-blue-500 border-4 border-white rounded-lg shadow-2xl md:p-8 shadow-black/50">
+            <div className="p-2 md:p-8 bg-gradient-to-b from-yellow-100 to-yellow-200">
+                <div className="flex flex-col items-center justify-center gap-4 p-4 bg-blue-400 border-4 border-violet rounded-lg shadow-2xl md:p-8 shadow-black/50">
                     <iframe
                         className="rounded-lg ring ring-blue-600 ring-offset-4 shadow-lg mb-2 md:mb-4 w-[20rem] md:w-[48rem] h-[12rem] md:h-[24rem]"
                         src="https://www.youtube-nocookie.com/embed/wlfdtNQ9URs?si=U_HnpravCCu1a-HI&amp;controls=0&amp;start=4"
@@ -156,18 +156,18 @@ export default function Home() {
                         </span>
                         <div className="flex flex-col gap-2 md:flex-row">
                             <a href="https://www.instagram.com/coepboatclub">
-                                <span className="flex items-center justify-center px-4 py-2 text-white bg-pink-500 rounded-full">
+                                <span className="flex items-center justify-center px-4 py-2 text-white bg-blue-600 rounded-full">
                                     <FiInstagram /> /coepboatclub
                                 </span>
                             </a>
                             <a href="https://www.youtube.com/@coepregatta4240">
-                                <span className="flex items-center justify-center px-4 py-2 text-white bg-red-500 rounded-full">
+                                <span className="flex items-center justify-center px-4 py-2 text-white bg-blue-600 rounded-full">
                                     <FiYoutube /> /coepregatta4240
                                 </span>
                             </a>
 
                             <a href="https://x.com/coepboatclub">
-                                <span className="flex items-center justify-center px-4 py-2 text-white bg-black rounded-full">
+                                <span className="flex items-center justify-center px-4 py-2 text-white bg-blue-600 rounded-full">
                                     <FaXTwitter /> /coepboatclub
                                 </span>
                             </a>

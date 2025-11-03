@@ -345,7 +345,7 @@ const events = {
 
 const data = [
     {
-        date: "15/10/2024",
+        date: "15/10/2025",
         title: "Deepotsav",
         src: "/assets/deepotsav/20253.jpeg",
         content: events["deepotsav"],
