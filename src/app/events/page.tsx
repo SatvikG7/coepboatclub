@@ -3,7 +3,30 @@ import { cn } from "@/lib/utils";
 import React from "react";
 
 const cardData = [
-    
+    {
+        title: "Mini Regatta",
+        date: "05/12/2025",
+        description: (
+            <div>
+                <p>
+                    The Mini Regatta serves as an introductory experience for students, offering them a glimpse into the spirit, scale, and excitement of the main Regatta. Designed especially for new participants, it familiarises students with water sports, team coordination, and the regatta culture. By showcasing races and activities, the Mini Regatta builds enthusiasm and encourages students to actively participate in the upcoming Regatta season. 
+                </p>
+            </div>
+        ),
+        image: "/assets/mini_regatta/mini1.jpg",
+    },
+    {
+        title: "Regatta Inauguration",
+        date: "05/12/2025",
+        description: (
+            <div>
+                <p className="text-justify">
+                    The Regatta Inauguration officially marks the commencement of the Regatta season at COEP. The event brings together students, faculty, and dignitaries to celebrate the beginning of this iconic tradition. A Mini Regatta is conducted to energise the audience and set the pace for the season ahead. The highlight of the inauguration is the grand reveal of the 98th Regatta theme, igniting excitement, pride, and anticipation among participants and spectators alike. <br />{" "}
+                </p>
+            </div>
+        ),
+        image: "/assets/regatta_inauguration/inaug3.jpg",
+    },
     {
         title: "Deepotsav",
         date: "24/10/2024",
@@ -53,39 +76,7 @@ const cardData = [
         ),
         image: "/assets/rise_of_the_fittest/rise.jpg",
     },
-    {
-        title: "Mini Regatta",
-        description: (
-            <div>
-                <p>
-                    Celebrating the joy of setting sail at our Mini Regatta! To introduce with you our annual event, we organised a glimpse of it. Mini Regatta sets just a trailer of Regatta. We proudly inaugurate this nautical spectacle, where every ripple signifies new beginnings. <br />{" "}
-                    
-                </p>
-            </div>
-        ),
-        image: "/assets/mini_regatta/mini_regatta.jpg",
-    },
-    {
-        title: "Regatta Inauguration",
-        date: "13/12/2024",
-        description: (
-            <div>
-                <p className="text-justify">
-                    The Regatta Inauguration is a grand event that marks the
-                    beginning of the Regatta season. The event is graced by the
-                    presence of the Vice-Chancellor, the Dean of Student
-                    Affairs, and other dignitaries. The event is a grand success
-                    every year and is enjoyed by all the students of COEP. This
-                    event is held to encourage students to participate in the
-                    Regatta and to motivate them to perform their best. <br />{" "}
-                    <b className="text-gray-700">
-                        Dr. S. M. Nawghare - Regatta Incharge
-                    </b>
-                </p>
-            </div>
-        ),
-        image: "/assets/regatta_inauguration/regatta_inauguration_1.jpg",
-    },
+    
     {
         title: "Alumni Races",
         description: (

@@ -19,22 +19,57 @@ export function Highlights() {
 }
 
 const events = {
-    regatta_inaguration: (
+    mini_regatta: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <img
-                src="/assets/regatta_inauguration/regatta_inauguration_1.jpg"
+                src="/assets/mini_regatta/mini1.jpg"
                 alt="Regatta Inauguration"
                 className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
             />
             <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
-                The Regatta Inauguration is a grand event that marks the
-                beginning of the Regatta season. The event is graced by the
-                presence of the Vice-Chancellor, the Dean of Student Affairs,
-                and other dignitaries. The event is a grand success every year
-                and is enjoyed by all the students of COEP. This event is held
-                to encourage students to participate in the Regatta and to
-                motivate them to perform their best.
+                The Mini Regatta serves as an introductory experience for students, offering them a glimpse into the spirit, scale, and excitement of the main Regatta. Designed especially for new participants, it familiarises students with water sports, team coordination, and the regatta culture. By showcasing races and activities, the Mini Regatta builds enthusiasm and encourages students to actively participate in the upcoming Regatta season.            </p>
+            <img
+                src="/assets/mini_regatta/mini2.jpg"
+                alt="Regatta Inauguration"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/mini_regatta/mini3.jpg"
+                alt="Regatta Inauguration"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/mini_regatta/mini4.jpg"
+                alt="Regatta Inauguration"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+        </div>
+    ),
+    regatta_inaguration: (
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
+            <img
+                src="/assets/regatta_inauguration/inaug1.jpg"
+                alt="Regatta Inauguration"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
+                The Regatta Inauguration officially marks the commencement of the Regatta season at COEP. The event brings together students, faculty, and dignitaries to celebrate the beginning of this iconic tradition. A Mini Regatta is conducted to energise the audience and set the pace for the season ahead. The highlight of the inauguration is the grand reveal of the 98th Regatta theme, igniting excitement, pride, and anticipation among participants and spectators alike.
             </p>
+            <img
+                src="/assets/regatta_inauguration/inaug2.jpg"
+                alt="Regatta Inauguration"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/regatta_inauguration/inaug3.jpg"
+                alt="Regatta Inauguration"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/regatta_inauguration/inaug4.jpg"
+                alt="Regatta Inauguration"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
         </div>
     ),
 /*
@@ -345,6 +380,18 @@ const events = {
 
 const data = [
     {
+        date: "05/12/2025",
+        title: "Mini Regatta",
+        src: "/assets/mini_regatta/mini2.jpg",
+        content: events["mini_regatta"],
+    },
+    {
+        date: "05/12/2025",
+        title: "Regatta Inauguration",
+        src: "/assets/regatta_inauguration/inaug3.jpg",
+        content: events["regatta_inaguration"],
+    },
+    {
         date: "15/10/2025",
         title: "Deepotsav",
         src: "/assets/deepotsav/20253.jpeg",
@@ -385,12 +432,6 @@ const data = [
         title: "Vishwanath Sports Meet",
         src: "/assets/mit_sports_meet/hero.jpg",
         content: events["mit_sports_meet"],
-    },
-    {
-        date: "13/12/2024",
-        title: "Regatta Inauguration",
-        src: "/assets/regatta_inauguration/regatta_inauguration_1.jpg",
-        content: events["regatta_inaguration"],
     }
     
 ];

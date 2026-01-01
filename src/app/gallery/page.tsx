@@ -4,6 +4,27 @@ import React from "react";
 
 const galleryData = [
     {
+        title: "Mini Regatta",
+        images: [
+            
+            "/assets/mini_regatta/mini1.jpg",
+            "/assets/mini_regatta/mini_regatta.jpg",
+            "/assets/mini_regatta/mini2.jpg",
+            "/assets/mini_regatta/mini4.jpg",    
+            "/assets/mini_regatta/mini3.jpg"
+        ],
+    },
+    {
+        title: "Ragatta Inauguration",
+        images: [
+            
+            "/assets/regatta_inauguration/inaug3.jpg",
+            "/assets/regatta_inauguration/inaug4.jpg",
+            "/assets/regatta_inauguration/inaug2.jpg",
+            "/assets/regatta_inauguration/inaug1.jpg"
+        ],
+    },
+    {
         title: "Deepotsav",
         images: [
             
