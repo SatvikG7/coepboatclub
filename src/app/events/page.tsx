@@ -29,7 +29,7 @@ const cardData = [
     },
     {
         title: "Deepotsav",
-        date: "24/10/2024",
+        date: "24/10/2025",
         description: (
             <div>
                 <p>
@@ -61,7 +61,7 @@ const cardData = [
                 </p>
             </div>
         ),
-        image: "/assets/moonlight_punting/boat1.jpg",
+        image: "/assets/moonlight_punting/boat1.JPG",
     },
     {
         title: "Rise Of The Fittest",
