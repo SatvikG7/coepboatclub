@@ -32,6 +32,17 @@ const games = [
 const yearwiseCompetitions: YearwiseCompetitions = {
   "2025-26": [
     {
+      name: "MIT INDOOR ROWING CHAMPIONSHIP",
+      participants: 15,
+      achievements: "Women's Four Silver medal",
+      media: [
+        "/assets/competitions/MIT_0.jpeg",
+        "/assets/competitions/MIT_1.jpeg",
+        "/assets/competitions/MIT_2.jpeg",
+        "/assets/competitions/MIT_video0.mp4"
+      ],
+    },
+    {
       name: "ARAE, Kolkata",
       participants: 8,
       achievements: "Represented COEP Technological University",
