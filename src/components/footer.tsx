@@ -66,27 +66,27 @@ function Footer() {
                 <div>
                     <h3 className="text-white font-semibold text-xl mb-3">Links</h3>
 
-                    <div className="grid grid-cols-2 gap-y-2 text-base">
-                        <a href="/" className="flex gap-2 hover:text-blue-400 transition">
+                    <div className="grid grid-cols-2 gap-y-4 text-base">
+                        <a href="/" className="flex gap-4 hover:text-blue-400 transition">
                             <Home className="w-5 h-5 flex-shrink-0" /> <span>Home</span>
                         </a>
-                        <a href="/events" className="flex gap-2 hover:text-blue-400 transition">
+                        <a href="/events" className="flex gap-4 hover:text-blue-400 transition">
                             <Calendar className="w-5 h-5 flex-shrink-0" /> <span>Events</span>
                         </a>
-                        <a href="/gallery" className="flex gap-2 hover:text-blue-400 transition">
+                        <a href="/gallery" className="flex gap-4 hover:text-blue-400 transition">
                             <ImageIcon className="w-5 h-5 flex-shrink-0" /> <span>Gallery</span>
                         </a>
-                        <a href="/committee" className="flex gap-2 hover:text-blue-400 transition">
+                        <a href="/committee" className="flex gap-x-4 hover:text-blue-400 transition">
                             <Users className="w-5 h-5 flex-shrink-0" /> <span>Committee</span>
                         </a>
                         <a href="/jalmaitri-camp" className="flex gap-2 hover:text-blue-400 transition">
                             <Users className="w-5 h-5 flex-shrink-0" /> <span>Jalmaitri Camp</span>
                         </a>
-                        <a href="/contact-us" className="flex gap-2 hover:text-blue-400 transition">
+                        <a href="/contact-us" className="flex gap-4 hover:text-blue-400 transition">
                             <Phone className="w-5 h-5 flex-shrink-0" /> <span>Contact</span>
                         </a>
 
-                        <a href="/sports" className="flex gap-2 hover:text-blue-400 transition whitespace-nowrap">
+                        <a href="/sports" className="flex gap-4 hover:text-blue-400 transition whitespace-nowrap">
                             <Users className="w-5 h-5 flex-shrink-0" /> <span>Sports & Competitions</span>
                         </a>
                     </div>

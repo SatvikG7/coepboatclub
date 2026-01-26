@@ -39,7 +39,9 @@ const yearwiseCompetitions: YearwiseCompetitions = {
         "/assets/competitions/MIT_0.jpeg",
         "/assets/competitions/MIT_1.jpeg",
         "/assets/competitions/MIT_2.jpeg",
-        "/assets/competitions/MIT_video0.mp4"
+        "/assets/competitions/MIT_video0.mp4",
+        "/assets/competitions/MIT_4.jpeg",
+        "/assets/competitions/MIT_3.jpeg"
       ],
     },
     {
