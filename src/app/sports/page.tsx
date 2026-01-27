@@ -37,11 +37,14 @@ const yearwiseCompetitions: YearwiseCompetitions = {
       achievements: "Women's Four Silver medal",
       media: [
         "/assets/competitions/MIT_0.jpeg",
+        "/assets/competitions/MIT_00.jpeg",
         "/assets/competitions/MIT_1.jpeg",
         "/assets/competitions/MIT_2.jpeg",
+        "/assets/competitions/MIT_5.jpeg",
         "/assets/competitions/MIT_video0.mp4",
-        "/assets/competitions/MIT_4.jpeg",
-        "/assets/competitions/MIT_3.jpeg"
+        "/assets/competitions/MIT_3.jpeg",
+        "/assets/competitions/MIT_6.jpeg",
+        "/assets/competitions/MIT_7.jpeg"
       ],
     },{
       name: "Zest Indoor Rowing",

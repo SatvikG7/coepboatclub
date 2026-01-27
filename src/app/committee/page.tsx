@@ -62,15 +62,8 @@ const Faculty = [
 
 const BMC = [
     {
-        name: "Kartik Kshirsagar",
-        post: "General Secretary",
-        mail: "ukandekt22.instru@coeptech.ac.in",
-        linkedin: "https://www.linkedin.com/in/kartiksiliconenthusiast/?originalSubdomain=in",
-        img_path: "secretary.png",
-    },
-    {
         name: "Darshan Bhagwat",
-        post: "Auditor",
+        post: "General Secretary and Auditor",
         mail: "bhagwatdm22.mech@coeptech.ac.in",
         img_path: "auditor.png",
         linkedin: "https://www.linkedin.com/in/darshan-bhagwat-70a18525b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -100,11 +93,19 @@ const BMC = [
     },
     {
         name: "Rajnandan Patil",
-        post: "Rowing Secretary ",
-        mail: "patilrs22.civil@coeptech.ac.in ",
+        post: "Rowing Secretary",
+        mail: "patilrs22.civil@coeptech.ac.in",
         img_path: "rowing_sec.jpg",
         linkedin: "https://www.linkedin.com/in/rajnandan-patil-4a48a1277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram: "https://www.instagram.com/patilrajnandan_2133?igsh=MWFkdXM2ZGNvajB3ZA==",
+    },
+    {
+        name: "Sarthak Vikhe",
+        post: "Jalmaitri Secretary ",
+        mail: "vikhesd22.mech@coeptech.ac.in",
+        img_path: "Jalmaitri_sec.jpeg",
+        linkedin: "https://www.linkedin.com/in/sarthak-vikhe-5b006b26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram: "https://www.instagram.com/sarthak_vikhe_patil?igsh=aWJ2eDJyaGFtY3Uz",
     },
     {
         name: "Prathmesh Lasankar",
