@@ -43,6 +43,18 @@ const yearwiseCompetitions: YearwiseCompetitions = {
         "/assets/competitions/MIT_4.jpeg",
         "/assets/competitions/MIT_3.jpeg"
       ],
+    },{
+      name: "Zest Indoor Rowing",
+      participants: 10,
+      achievements: "1 gold and 3 silver",
+      media: [
+        "/assets/competitions/zest_000.jpeg",
+        "/assets/competitions/zest_00.jpeg",
+        "/assets/competitions/zest_0.jpeg",
+        "/assets/competitions/zest_1.jpeg",
+        "/assets/competitions/zest_2.jpeg",
+        "/assets/competitions/zest_4.jpeg"
+      ],
     },
     {
       name: "ARAE, Kolkata",
