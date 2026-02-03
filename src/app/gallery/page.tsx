@@ -4,6 +4,15 @@ import React from "react";
 
 const galleryData = [
     {
+        title: "Visit to CME for 43rd Senior National Rowing Championship",
+        images: [
+            
+            "/assets/CME_session/CME_0.jpeg",
+            "/assets/CME_session/CME_1.jpeg",
+            "/assets/CME_session/CME_2.jpeg"
+        ],
+    },
+    {
         title: "Mini Regatta",
         images: [
             

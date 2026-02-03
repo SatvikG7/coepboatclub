@@ -4,6 +4,18 @@ import React from "react";
 
 const cardData = [
     {
+        title: "Visit to CME for 43rd Senior National Rowing Championship",
+        date: "31/01/2026",
+        description: (
+            <div>
+                <p>
+                    Team COEP ROWING arranged a CME session for  beginners and new participants for attending the 43rd senior National Rowing Championship Final Matches.
+                </p>
+            </div>
+        ),
+        image: "/assets/CME_session/CME_0.jpeg",
+    },
+    {
         title: "Mini Regatta",
         date: "05/12/2025",
         description: (
