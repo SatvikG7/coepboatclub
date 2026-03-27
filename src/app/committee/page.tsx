@@ -135,7 +135,7 @@ const BMC = [
         name: "Payal Kotkar",
         post: "Web Development Head",
         mail: "kotkarpr23.comp@coeptech.ac.in",
-        img_path: "web_head.jpeg",
+        img_path: "web_dev.jpeg",
         linkedin: "https://www.linkedin.com/in/payalkotkar",
         instagram: "https://www.instagram.com/_payalk28_/",
         github: "https://github.com/Payalcoep",
