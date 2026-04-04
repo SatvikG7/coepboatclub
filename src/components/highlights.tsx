@@ -19,6 +19,174 @@ export function Highlights() {
 }
 
 const events = {
+    regatta: (
+        <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
+            <img
+                src="/assets/98_regatta/98th_22.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <p className="max-w-3xl mx-auto font-serif text-base text-neutral-600 md:text-2xl">
+                The Regatta is one of the most prestigious and eagerly awaited events of COEP Technological University, showcasing a rich legacy of water sports, teamwork, and tradition. Held annually, the event features a variety of thrilling races including kayak, canoe, and the iconic dragon boat race. With enthusiastic participation from students, alumni, and spectators, Regatta celebrates the spirit of sportsmanship, dedication, and unity on the waters.
+            </p>
+            <img
+                src="/assets/98_regatta/98th_0.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_1.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_2.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_3.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_4.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_5.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_6.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_7.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_8.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_9.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_10.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_11.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_12.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_13.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_14.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_15.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_16.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_17.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_18.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_19.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_20.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_21.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_23.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_24.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_25.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_26.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_27.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_28.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_29.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            <img
+                src="/assets/98_regatta/98th_30.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+            
+            <img
+                src="/assets/98_regatta/DSC_7920.JPG"
+                alt="98th Regatta"
+                className="object-cover mx-auto mb-2 md:w-2/3 rounded-3xl"
+            />
+        </div>
+    ),
     mini_regatta: (
         <div className="bg-[#F5F5F7] p-4 md:p-8 rounded-3xl m-2">
             <img
@@ -309,6 +477,50 @@ const events = {
                     </button>
                 </div>
             </p>
+            <div>
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/jalmaitri_camp/jalmaitri_26_1.jpeg"
+                    alt="jalmaitri_camp"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/jalmaitri_camp/jalmaitri_26.jpeg"
+                    alt="jalmaitri_camp"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/jalmaitri_camp/jalmaitri_26_2.jpeg"
+                    alt="jalmaitri_camp"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/jalmaitri_camp/jalmaitri_26_3.jpeg"
+                    alt="jalmaitri_camp"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/jalmaitri_camp/jalmaitri_26_4.jpeg"
+                    alt="jalmaitri_camp"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/jalmaitri_camp/jalmaitri_26_5.jpeg"
+                    alt="jalmaitri_camp"
+                    loading="lazy"
+                />
+                <img
+                    className="object-cover m-4 mx-auto md:w-2/3 rounded-3xl"
+                    src="/assets/jalmaitri_camp/bornfire.jpeg"
+                    alt="jalmaitri_camp"
+                    loading="lazy"
+                />
+            </div>
         </div>
     ),
 
@@ -380,6 +592,24 @@ const events = {
 
 const data = [
     {
+        date: "21/03/2026 - 22/03/2026",
+        title: "98th Regatta",
+        src: "/assets/98_regatta/98th_22.JPG",
+        content: events["regatta"],
+    },
+    {
+        date: "20/02/2026 - 21/02/2026",
+        title: "Jalmaitri Camp",
+        src: "/assets/jalmaitri_camp/jalmaitri_26.jpeg",
+        content: events["jalmaitri_camp"],
+    },
+    {
+        date: "11/02/2026",
+        title: "Survival of the Fittest",
+        src: "/assets/survival_of_the_fittest/survival_of_the_fittest_1.jpg",
+        content: events["survival_of_the_fittest"],
+    },
+    {
         date: "05/12/2025",
         title: "Mini Regatta",
         src: "/assets/mini_regatta/mini2.jpg",
@@ -408,24 +638,6 @@ const data = [
         title: "Rise Of The Fittest",
         src: "/assets/rise_of_the_fittest/action.jpeg",
         content: events["rise_of_the_fittest"],
-    },
-    {
-        date: "",
-        title: "",
-        src: "/assets/regatta_invitation/page-1.jpg",
-        content: events["regatta_invitation"],
-    },
-    {
-        date: "05/02/2025 - 06/02/2025",
-        title: "Jalmaitri Camp",
-        src: "/assets/jalmaitri_camp/jalmaitri_camp_5.jpg",
-        content: events["jalmaitri_camp"],
-    },
-    {
-        date: "31/01/2025",
-        title: "Survival of the Fittest",
-        src: "/assets/survival_of_the_fittest/survival_of_the_fittest_1.jpg",
-        content: events["survival_of_the_fittest"],
     },
     {
         date: "26/01/2025",

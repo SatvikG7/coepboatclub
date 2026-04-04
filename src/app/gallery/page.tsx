@@ -4,6 +4,25 @@ import React from "react";
 
 const galleryData = [
     {
+        title: "98th Regatta",
+        images: [
+            
+            "/assets/98_regatta/98th_25.JPG",
+            "/assets/98_regatta/98th_20.JPG",
+            "/assets/98_regatta/98th_2.JPG",
+            "/assets/98_regatta/98th_5.JPG",
+            "/assets/98_regatta/98th_1.JPG",
+            "/assets/98_regatta/98th_14.JPG",
+            "/assets/98_regatta/98th_18.JPG",
+            "/assets/98_regatta/98th_28.JPG",
+            "/assets/98_regatta/98th_26.JPG",
+            "/assets/98_regatta/98th_16.JPG",
+            "/assets/98_regatta/98th_15.JPG",
+            "/assets/98_regatta/98th_7.JPG",
+            
+        ],
+    },
+    {
         title: "Visit to CME for 43rd Senior National Rowing Championship",
         images: [
             

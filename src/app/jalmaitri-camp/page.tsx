@@ -6,13 +6,13 @@ export default function JalmaitriCamp() {
     return (
         <div className="max-w-7xl mx-auto">
             <h1 className="mx-2 my-2 text-4xl md:mx-8 underline font-serif">
-                Jalmaitri Camp 25
+                Jalmaitri Camp 26
             </h1>
             <section className="p-1 md:p-4">
                 <h2 className="m-2 text-2xl md:my-4 md:mx-8">Introduction</h2>
                 <div className="flex-row gap-8 m-2 md:flex md:mx-8 md:my-4 items-center">
                     <p className="mx-4 text-justify text-md basis-2/3">
-                        Jalmaitri 25, a two-day, one-night event held on the 5th
+                        Jalmaitri 26, a two-day, one-night event held on the 5th
                         and 6th, was organized by the COEP Boat Club at the
                         scenic Panshet Dam. The primary objective of the camp
                         was to offer participants a blend of adventure,
@@ -46,14 +46,14 @@ export default function JalmaitriCamp() {
                         className="rounded-md"
                         width={500}
                         height={300}
-                        src="/assets/jalmaitri_camp/jalmaitri_camp_7.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_26_1.jpeg"
                         alt="jalmaitri_camp_7"
                     />
                 </div>
             </section>
             <section className="p-1 md:p-4">
                 <h2 className="m-2 text-2xl md:my-4 md:mx-8">
-                    Day 1 (5th of February)
+                    Day 1 (21st of February)
                 </h2>
                 <div className="flex-row-reverse gap-8 m-2 md:flex md:mx-8 md:my-4 items-center">
                     <p className="m-2 text-justify text-md md:my-4 md:mx-8">
@@ -87,7 +87,7 @@ export default function JalmaitriCamp() {
                         className="rounded-md"
                         width={500}
                         height={360}
-                        src="/assets/jalmaitri_camp/jalmaitri_camp_8.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_26_2.jpeg"
                         alt="jalmaitri_camp_8"
                     />
                 </div>
@@ -104,7 +104,7 @@ export default function JalmaitriCamp() {
                     className="mx-auto basis-1/3 rounded-md"
                     width={400 * 1.5}
                     height={300 * 1.5}
-                    src="/assets/jalmaitri_camp/jalmaitri_camp_9.jpg"
+                    src="/assets/jalmaitri_camp/jalmaitri_26_3.jpeg"
                     alt="jalmaitri_camp_9"
                 />
                 <p className="m-2 text-justify text-md md:my-4 md:mx-8">
@@ -123,7 +123,7 @@ export default function JalmaitriCamp() {
                         className="rounded-md"
                         width={800}
                         height={300}
-                        src="/assets/jalmaitri_camp/jalmaitri_camp_10.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_26_4.jpeg"
                         alt="jalmaitri_camp_10"
                     />
                     <Image
@@ -131,7 +131,7 @@ export default function JalmaitriCamp() {
                         className="rounded-md"
                         width={400}
                         height={300}
-                        src="/assets/jalmaitri_camp/jalmaitri_camp_11.jpg"
+                        src="/assets/jalmaitri_camp/jalmaitri_26_5.jpeg"
                         alt="jalmaitri_camp_11"
                     />
                 </div>
@@ -149,14 +149,14 @@ export default function JalmaitriCamp() {
                     className="m-8 mx-auto rounded-md basis-1/3"
                     width={400 * 1.5}
                     height={300 * 1.5}
-                    src="/assets/jalmaitri_camp/jalmaitri_camp_12.jpg"
+                    src="/assets/jalmaitri_camp/bornfire.jpeg"
                     alt="jalmaitri_camp_12"
                 />
             </section>
 
             <section className="p-1 md:p-4">
                 <h2 className="m-2 text-2xl md:my-4 md:mx-8">
-                    Day 2 (6th of February)
+                    Day 2 (22nd of February)
                 </h2>
                 <div className="flex-row m-2 md:flex md:mx-8 md:my-4 items-center">
                     <p className="m-2 text-justify text-md md:my-4 md:mx-8 basis-2/3">
@@ -180,14 +180,6 @@ export default function JalmaitriCamp() {
                         this thrilling water sport under expert supervision
                         provided with speed boats.
                     </p>
-                    <Image
-                        loading="lazy"
-                        className="rounded-md"
-                        width={400}
-                        height={300}
-                        src="/assets/jalmaitri_camp/jalmaitri_camp_13.jpg"
-                        alt="jalmaitri_camp_13"
-                    />
                 </div>
             </section>
 
@@ -207,7 +199,7 @@ export default function JalmaitriCamp() {
                 </p>
                 <p className="flex flex-row justify-end text-right text-md md:my-4 md:mx-8">
                     <span className="text-lg font-bold text-gray-800 md:text-xl">
-                        - Omkar Sinare,{""}
+                        - Yuvraj Fulsoundar,{""}
                     </span>
                     &nbsp;
                     <span className="text-lg font-bold text-gray-500 md:text-xl">
