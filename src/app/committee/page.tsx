@@ -99,7 +99,7 @@ const BMC = [
         name: "Prem Dupargude",
         post: "kayaking and Canoeing Secretary",
         mail: "dupargudepb23.meta@coeptech.ac.in",
-        img_path: "ty_kr copy.jpg",
+        img_path: "ks.jpeg",
         linkedin: "https://www.linkedin.com/in/prem-dupargude-691223339?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         instagram: "https://www.instagram.com/prem_b_l_14?exln=a212cjV5MTJwaTdw",
     },
