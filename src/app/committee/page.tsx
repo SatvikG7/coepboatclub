@@ -235,7 +235,7 @@ export default function Committee() {
 
             <div className="flex flex-col items-center justify-center p-8">
                 <h1 className="mb-8 text-3xl text-center underline">
-                    Boat Club Managing Committee (BMC) 2025-26
+                    Boat Club Managing Committee (BMC) 2026-27
                 </h1>
                 <div className="flex flex-row flex-wrap gap-6 justify-evenly">
                     {BMC.map((F, i) => {
@@ -287,7 +287,7 @@ export default function Committee() {
             <div className="flex justify-center">
                 <button className="px-4 py-2 mt-2 mb-4 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">
                     <a href="/previous-committee">
-                        Previous Committee (2024-25)
+                        Previous Committee (2025-26)
                     </a>
                 </button>
             </div>

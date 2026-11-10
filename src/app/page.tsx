@@ -22,7 +22,7 @@ const testimonials = [
     },
     {
         quote: "Witnessing the Regatta each year reaffirms the spirit and tradition that COEP upholds.",
-        name: "Dr. S. M. Nawghare",
+        name: "Dr. S. S. Kumbhar",
         designation: "Regatta Incharge, COEP Boat Club",
         src: "/assets/committee/regatta_incharge.png",
     },
@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="flex flex-col items-center justify-center gap-4 p-4 bg-blue-400 border-4 border-violet rounded-lg shadow-2xl md:p-8 shadow-black/50">
                     <iframe
                         className="rounded-lg ring ring-blue-600 ring-offset-4 shadow-lg mb-2 md:mb-4 w-[20rem] md:w-[48rem] h-[12rem] md:h-[24rem]"
-                        src="https://www.youtube-nocookie.com/embed/wlfdtNQ9URs?si=U_HnpravCCu1a-HI&amp;controls=0&amp;start=4"
+                        src="https://www.youtube.com/embed/j_3ZNN7cJEs?si=QsAQNms83vC6PtJ-"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"
